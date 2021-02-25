@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>Formulario Acamica</title>
+    <link rel="stylesheet" type="text/css" href="./sytle.css">
+</head>
+<body>
+    <header>
+    <nav >
+        <div class="logo" >
+            <img class="logo" id="logo" src="https://images.prismic.io/acamica%2F087942ab-8d20-4cd1-86f5-0f150ab63587_iso.png?auto=compress,format" alt="Acamica">
+        </div>
+    </nav>
+</header>
+    <main>
+        <h1 class="titulo">Bienvenido a Acamica, estamos aca para impulsar tu talento </h1> <br>
+    <section>
+        <h2>Por favor diligencia el siguiente formulario para conocerte mejor:</h2>
+    </section>
+    <div class="formulario">
+    <form action="www.miservidor.com">
+        <div> 
+            <label for="name">Nombre</label>
+            <input type="text" placeholder='Pepito' id="name" required tabindex="1">
+        </div>
+        <br>
+        <div> 
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder='Perez' id="apellido" required tabindex="2">
+        </div>
+        <br>
+        <div> 
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder='pepito@hotmail.com' required>
+        </div>
+        <br>
+        <label for="pais">Selecciona tu pais</label>
+        <select name="pais" id="pais" required> 
+            <option value="Colombia" >Colombia </option>
+            <option value="Brazil">Brazil</option>
+            <option value="Peru">Peru</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+        </select>
+        <br>
+        <br>
+        <label for="carrera">A que carrera deseas inscribirte?</label>
+        <select name="carrera" id="carrera" required> 
+            <option value="Colombia">UX/UI </option>
+            <option value="Brazil">Data Science</option>
+            <option value="Peru">Desarrollo Web full Stack</option>
+            <option value="Argentina">Front-end avanzado</option>
+        </select>
+        <br>
+        <br>
+        <label for="modalidad">En que modalidad?</label>
+        <select name="modalidad" id="modalidad" > 
+            <option value="Colombia">Presencial </option>
+            <option value="Brazil">Virtual</option>
+        </select>
+        <br>
+        <br>
+         <div>
+          <label for="experiencia">Trabaja?</label>
+                <input type="radio"name="exp"value="yes" id="expYes">
+                <label for="expYes">Si</label>
+                <input type="radio"name="exp"value="no" id="expNO">
+                <label for="expYes">No</label>
+            </div>
+            <br>
+            <div> 
+                <label for="telefono">Digite su telefono por favor</label>
+                <input type="email"placeholder='1234567'>
+            </div>
+            <br>
+            <label for="persona">Quien eres?</label>
+            <br>
+           <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Cuentanos mas de ti" maxlength="300"></textarea>
+           <br>
+           <br>
+           <div>
+            <input type="submit" value="Listo">
+            <input type="reset" value="La cague">
+        </div>
+        </div>
+    </form>
+</div>
+    </main>
+</body>
+</html>

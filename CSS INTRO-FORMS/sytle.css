@@ -1,0 +1,50 @@
+
+
+   .logo{
+width: 150px;
+height:150px;
+background-color:white;
+    }
+    body{
+        background-color: black;
+    }
+    h1{
+        text-align: center;
+        font-family:monospace;
+        color: white;
+        font-size: 6rem;
+        border:3px solid white;
+    }
+h2{
+        
+        color:white;
+        font-size: 4rem;
+        font-family: monospace;
+
+    }
+div.formulario{
+    color:white;
+    font-size: 4rem;
+    font-family: monospace;
+    text-align: center;
+    border:3px solid purple;
+
+}
+input,select{
+    font-size: 3rem;
+    text-align: center;
+    }
+textarea{
+    font-size: 3rem;
+    
+    text-align: center;
+}
+/* p{
+    font-size: 4rem;
+    font-family: monospace;
+    text-align: center;
+    color:white;
+} */
+.titulo{
+    color: red;
+}

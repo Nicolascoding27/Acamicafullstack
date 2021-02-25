@@ -1,0 +1,72 @@
+header {
+    text-align: center;
+     color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 100%;
+    font-family: "JetBrains Mono", monospace;
+}
+body {
+    background-image: url(https://colmaria.edu.co/images/noticias/protalentologo.jpg);
+    background-size: cover;
+}
+nav{
+    align-content: center;
+}
+#btn-warning{
+    position: absolute;
+
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    border: 5px solid #ffffff;
+    cursor: pointer;
+}
+#end{
+    color: burlywood;
+}
+p{
+    color: #fff;
+    border: 5px solid #ffa8a8;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 80%;
+    font-family: "JetBrains Mono", monospace;
+    line-height: 20px;
+}
+ul {
+    
+    align-content: center;
+
+}
+
+.webtext:last-child {
+    border: 5px dashed green;
+}
+.active {
+    color: #fff;
+}
+#div1 {
+    background: rgba(255, 168, 168, 0.75);
+}
+#div2 {
+    background: rgba(0, 0, 255, 0.2);
+}
+#div3 {
+    float: left;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 200%;
+    font-family: "JetBrains Mono", monospace;
+  width: 100%;
+  text-align: center;    
+        /* Footer height */
+}

@@ -1,0 +1,88 @@
+*{
+    font-family: 'roboto', cursive;
+    margin: 0;
+    padding:0;
+
+}
+h1{
+    text-align: center;
+    font-family: 'popins';
+    font-size: 20;
+    margin: 0;
+}
+h2,h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0%;
+}
+.blue{
+    text-align: center;
+    color:blue;
+}
+.red{
+    text-align: left;
+    color: red;
+}
+.todo{
+    background-image: url("https://media2.giphy.com/media/26FPOFusQUOKpnXTG/giphy.gif?cid=ecf05e47sc23zayk0oc0yalvhcsz6lsbxhe23lbapl3rrmbh&rid=giphy.gif");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .lorem{
+      color: seagreen;
+      font-size: 20px;
+  }
+  .box{
+      width:300px;
+      height: 300px;
+      color:white;
+      display: inline-block;
+      /* margin-top: 50px;
+      margin-left: 100px; */
+      /* Forma 2 es lo mismo */
+      margin: 50px 0px 20px 50px;
+      padding: 50px;
+     background-color:rgba(52,147,255,1);
+
+      border: 10px solid pink;
+    }
+    .transparent{
+        background-color:rgba(52,147,255,0.3);
+        color :black;
+    }
+    .image{
+        background-image: url("https://media2.giphy.com/media/26FPOFusQUOKpnXTG/giphy.gif?cid=ecf05e47sc23zayk0oc0yalvhcsz6lsbxhe23lbapl3rrmbh&rid=giphy.gif");
+    }
+    .border-radius{
+        border-radius: 20px;
+    }
+    .circle{
+        border-radius: 50%;
+    }
+    .dotted{
+        border: 10px dotted red;
+    }
+    
+    .solid{
+        border: 10px solid red;
+    }
+    
+    .dashed{
+        border: 10px dashed red;
+    }
+    
+    .double{
+        border: 10px double red;
+    }
+    .content-box{
+        box-sizing: content-box;
+        padding: 20px;
+    }
+    .border-box{
+        box-sizing: border-box;
+        padding:20px;
+    }
