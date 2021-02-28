@@ -14,7 +14,7 @@ h1,h2{
     color: white;
     overflow: hidden;
     display: block;
-    position: absolute;
+    position: relative;
    
 }
 .box1{
@@ -29,24 +29,27 @@ h1,h2{
     height: 300px;
     background-color: teal;
     float: right;
-    right:0px;
-    top:0%
+
 }
 .box3{
     width: 300px;
     height: 300px;
-    position:relative ;
-    margin-left: 322px ;
-    margin-top: 485px;
-    background-color: wheat;
+    position:absolute;
+    left: 322px ;
+    top: 485px;
+    background-color:navy;
+   
+    
 }
 .box4{
     width: 300px;
     height: 300px;
-    poaition:relative;
-    margin-left: 650px ;
-    margin-top: 650px;
-    background-color:yellow;
+    position:absolute;
+    
+    left: 650px ;
+    top: 650px;
+    background-color:red;
+   
 }
 .logo{
     width: 50px;
