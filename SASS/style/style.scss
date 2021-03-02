@@ -3,9 +3,6 @@
     margin: 0;
     block-size:border-box;
 }
-header{
-    background-color: antiquewhite;
-}
 %button{
     border-radius: 5px;
     font-size: 14px;
@@ -15,7 +12,6 @@ header{
     filter:brightness(90%)
 } //Style created 
 button{
-@extend %button;
     background: black;
-    
+    @extend %button;   
 }
