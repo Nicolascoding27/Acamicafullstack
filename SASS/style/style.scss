@@ -6,3 +6,14 @@
 header{
     background-color: antiquewhite;
 }
+%button{
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    color:#fff;
+    filter:brightness(90%)
+} //Style created 
+button{
+@extend %button
+}
