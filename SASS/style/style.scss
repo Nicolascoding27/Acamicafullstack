@@ -15,5 +15,7 @@ header{
     filter:brightness(90%)
 } //Style created 
 button{
-@extend %button
+@extend %button;
+    background: black;
+    
 }
