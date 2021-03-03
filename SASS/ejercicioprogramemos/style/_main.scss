@@ -1,0 +1,25 @@
+h2{
+    color:$secondary-color;
+    margin-top: 20px;
+}
+P{
+    color:$primary-color;
+    font-size: 16px;
+    
+}
+
+.btn{
+    margin:20px auto;
+    width: 80px;
+    color:$bg;
+    padding:10px;
+    background: linear-gradient(100deg, $primary-gradient, $secondary-gradient );
+    border-radius: 5px;
+    border:2px solid black; 
+    &:hover{
+        cursor: pointer;
+        border: 2px solid $primary-gradient;
+        color:black;
+        background: none;
+    }
+}
