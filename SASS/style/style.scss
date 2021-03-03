@@ -37,6 +37,10 @@ form{
             border:3px dashed $btn-primary
         }
     }
+    label{
+        diplay:inline-block;
+        margin:
+    }
     textarea{
         @extend input;
     }
