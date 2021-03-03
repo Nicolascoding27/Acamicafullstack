@@ -23,4 +23,19 @@ header {
 header .logo {
   float: left;
 }
+
+header h1 {
+  float: left;
+  margin-left: 10px;
+  line-height: 60px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav li {
+  display: inline;
+  padding-left: 10px;
+}
 /*# sourceMappingURL=style.css.map */

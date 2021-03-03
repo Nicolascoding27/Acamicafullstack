@@ -10,4 +10,17 @@ header{
     .logo{
         float: left;
     }
+    h1{
+        float:left;
+        margin-left:10px; 
+        line-height: 60px;
+    }
+    nav{
+        float:right;
+        
+        li{
+            display: inline;
+            padding-left:10px;
+        }
+    }
 }
