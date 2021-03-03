@@ -100,4 +100,30 @@ main .articleContainer .btn {
   display: block;
   margin: 10px auto;
 }
+
+main .contact h2 {
+  clear: both;
+}
+
+main form {
+  border: 2px solid #1fb3ed;
+  padding: 10px;
+  width: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+main form label, main form button, main form input {
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+}
+
+main form input {
+  padding: 10px;
+}
+
+main form button {
+  margin: 15px 0;
+}
 /*# sourceMappingURL=style.css.map */

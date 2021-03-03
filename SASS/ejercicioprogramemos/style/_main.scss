@@ -44,4 +44,27 @@ main{
         margin:10px auto;
     }
 }
+.contact h2{
+    clear: both;
 }
+        form{
+            border: 2px solid $primary-gradient;
+            padding: 10px;
+            width: 300px;
+            width: 300px;
+            margin:0 auto;
+        label, button, input{
+                width:100%;
+                display:block;
+                margin-top: 5px;
+            }
+        input{
+            padding: 10px;
+        }
+        button{
+            margin:15px 0;
+        }
+
+        }
+    }
+
