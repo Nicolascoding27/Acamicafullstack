@@ -21,6 +21,13 @@ header{
         li{
             display: inline;
             padding-left:10px;
+            list-style: none;
+            line-height: 60px;
+            &:hover{
+                color: $primary-gradient;
+                cursor:pointer;
+                transition:color 1s ease; 
+            }
         }
     }
 }
