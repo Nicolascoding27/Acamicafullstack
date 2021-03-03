@@ -5,7 +5,8 @@
         "style.scss",
         "_variables.scss",
         "_baserules.scss",
-        "_header.scss"
+        "_header.scss",
+        "_main.scss"
     ],
     "names": [],
     "file": "style.css"
