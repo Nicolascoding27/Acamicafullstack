@@ -1,17 +1,58 @@
+//Variables
+$bg-primary: #FEFDFF;
+$bg-secondary: #D5E2EA;
+$btn-primary: #8EB1C7;
+$btn-secondary: #EB4511;
+$border-primary: #ACC6D6;
 *{
     padding: 0;
     margin: 0;
     block-size:border-box;
+    
 }
+
 %button{
-    border-radius: 5px;
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 15px 30px;
-    color:#fff;
-    filter:brightness(90%)
+        border-radius: 5px;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        color:#fff;
+        filter:brightness(90%);  
+        &:hover {
+            filter:brightness(110%);
+        }   
 } //Style created 
-button{
-    background: black;
-    @extend %button;   
+body{
+    background: $btn-secondary;
+    font-family: Arial, Helvetica, sans-serif;
 }
+form{
+    background: $bg-secondary;
+    width:500px;
+    padding: 20px;
+    border-radius: 10px;
+    input{
+        border-radius: 5px;
+        border:1px solid black;
+        width:100%;
+        padidng:10px;
+        display: block;
+        &:focus{
+            border:3px dashed $btn-primary
+        }
+    }
+    .ctn-btn{
+        width:100%;
+        text-align:center;
+        margin:20px 0 0 0 ;
+        button [type="reset"]{
+            background:$btn-secondary;
+            @extend %button; 
+        }
+        button [type="submit"]{
+            background:$btn-primary;
+            @extend %button; 
+        }
+        }
+    }
+  
