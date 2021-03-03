@@ -23,7 +23,7 @@ $border-primary: #ACC6D6;
         }   
 } //Style created 
 body{
-    background: $btn-secondary;
+    background: $btn-primary;
     font-family: Arial, Helvetica, sans-serif;
 }
 form{
@@ -40,6 +40,9 @@ form{
         &:focus{
             border:3px dashed $btn-primary
         }
+    }
+    textarea{
+        @extend input;
     }
     .ctn-btn{
         width:100%;
