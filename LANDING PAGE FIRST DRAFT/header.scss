@@ -1,0 +1,32 @@
+header{
+    width:100%;
+    height: 170px;
+    margin-bottom: 0;
+    background-color: $secondary-color;
+    font-size: 20px;
+}
+.header-img{
+    width: 100%;
+    height: auto;
+
+}
+  nav{
+      margin-top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $secondary-color;
+        li{
+            text-align: center;
+            margin-left: 100px;
+            color: white;
+            display: inline;
+            padding-left:10px;
+            list-style: none;
+            line-height: 60px;
+            &:hover{
+                color: $primary-color;
+                cursor:pointer;
+                transition:color 1s ease; 
+            }
+        }
+    }
