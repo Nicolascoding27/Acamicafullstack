@@ -1,1 +1,47 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 10vmin;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 10vmax;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.box {
+  width: 100vmin;
+  height: 40vmin;
+  background-color: red;
+}
+
+.box-max {
+  width: 100vmax;
+  height: 40vmax;
+  background-color: blue;
+}
+
+.box-vh {
+  width: 10vh;
+  height: 10vh;
+  background: green;
+}
+
+.box-vw {
+  width: 10vw;
+  height: 10vh;
+  background: pink;
+}
+/*# sourceMappingURL=style.css.map */
