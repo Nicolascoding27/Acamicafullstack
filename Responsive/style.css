@@ -44,4 +44,17 @@ h4 {
   height: 10vh;
   background: pink;
 }
+
+html {
+  font-size: 20px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.rem {
+  font-size: 1rem;
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */
