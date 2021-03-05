@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  padding: 5px 30px;
+  border-bottom: 3px solid #1fb3ed;
+}
+
+header .logo {
+  float: left;
+}
+
+header h1 {
+  float: left;
+  margin-left: 10px;
+  line-height: 60px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav li {
+  display: inline;
+  padding-left: 10px;
+  list-style: none;
+  line-height: 60px;
+}
+
+header nav li:hover {
+  color: #1fb3ed;
+  cursor: pointer;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+h2 {
+  color: red;
+  margin-top: 20px;
+  text-align: center;
+}
+
+P {
+  color: gray;
+  font-size: 16px;
+}
+
+.btn {
+  margin: 20px auto;
+  width: 80px;
+  color: #fff;
+  padding: 10px;
+  background: linear-gradient(100deg, #1fb3ed, #7adbec);
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: 2px solid #1fb3ed;
+  color: black;
+  background: none;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main .articleContainer {
+  padding: 40px 10px;
+  text-align: justify;
+}
+
+main .articleContainer .articuloIzquierdo {
+  float: left;
+  width: 50%;
+}
+
+main .articleContainer .articuloDerecho {
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+}
+
+main .articleContainer .btn {
+  display: block;
+  margin: 10px auto;
+}
+
+main .contact h2 {
+  clear: both;
+}
+
+main form {
+  border: 2px solid #1fb3ed;
+  padding: 10px;
+  width: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+main form label, main form button, main form input {
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+}
+
+main form input {
+  padding: 10px;
+}
+
+main form button {
+  margin: 15px 0;
+}
+/*# sourceMappingURL=style.css.map */

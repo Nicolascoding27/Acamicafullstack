@@ -1,0 +1,70 @@
+h2{
+    color:$secondary-color;
+    margin-top: 20px;
+    text-align: center;
+}
+P{
+    color:$primary-color;
+    font-size: 16px;
+    
+}
+
+.btn{
+    margin:20px auto;
+    width: 80px;
+    color:$bg;
+    padding:10px;
+    background: linear-gradient(100deg, $primary-gradient, $secondary-gradient );
+    border-radius: 5px;
+    border:2px solid black; 
+    &:hover{
+        cursor: pointer;
+        border: 2px solid $primary-gradient;
+        color:black;
+        background: none;
+    }
+}
+main{
+    padding-top: 50px;
+    .articleContainer{
+        padding:40px 10px;
+        text-align: justify;
+    
+    .articuloIzquierdo{
+        float: left;
+        width:50%;
+    }
+    .articuloDerecho{
+        float: right;
+        width:50%;
+        padding-left: 20px;
+    }
+    .btn{
+        display: block;
+        margin:10px auto;
+    }
+}
+.contact h2{
+    clear: both;
+}
+        form{
+            border: 2px solid $primary-gradient;
+            padding: 10px;
+            width: 300px;
+            width: 300px;
+            margin:0 auto;
+        label, button, input{
+                width:100%;
+                display:block;
+                margin-top: 5px;
+            }
+        input{
+            padding: 10px;
+        }
+        button{
+            margin:15px 0;
+        }
+
+        }
+    }
+
