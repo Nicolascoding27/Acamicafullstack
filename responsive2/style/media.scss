@@ -1,0 +1,35 @@
+@media screen and (max-width: 500px){
+    header{
+        height:100px;
+    }
+    .logo{
+        float:none;
+        display: inline-block;
+    }
+    h1{
+        float:none;
+        display: inline-block;
+        line-height: 0;
+    }
+    nav{
+        float: none;
+    
+    li{
+        padding-left: 0;  
+         line-height: 40px;
+    }
+}
+main{
+    padding-top: 100px;
+    .articleContainer{
+    .articuloIzquierdo{
+        float: none;
+        width: 100%;
+    }
+    .articuloDerecho{
+        float: none;
+        width: 100%;
+    }
+}
+}
+}

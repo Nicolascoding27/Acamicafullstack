@@ -126,4 +126,25 @@ main form input {
 main form button {
   margin: 15px 0;
 }
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 100px;
+  }
+  .logo {
+    float: none;
+    display: inline-block;
+  }
+  h1 {
+    float: none;
+    display: inline-block;
+  }
+  nav {
+    float: none;
+  }
+  nav li {
+    padding-left: 0;
+    line-height: 40px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

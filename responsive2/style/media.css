@@ -1,0 +1,33 @@
+@media screen and (max-width: 500px) {
+  header {
+    height: 100px;
+  }
+  .logo {
+    float: none;
+    display: inline-block;
+  }
+  h1 {
+    float: none;
+    display: inline-block;
+    line-height: 0;
+  }
+  nav {
+    float: none;
+  }
+  nav li {
+    padding-left: 0;
+    line-height: 40px;
+  }
+  main {
+    padding-top: 100px;
+  }
+  main .articleContainer .articuloIzquierdo {
+    float: none;
+    width: 100%;
+  }
+  main .articleContainer .articuloDerecho {
+    float: none;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
