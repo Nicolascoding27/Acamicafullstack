@@ -45,3 +45,18 @@ p{
     font-size:1rem;
     color:red;
 }
+.box-media{
+    height: 50px;
+    background: purple;
+}
+.box-media::after{
+    content: "caja desde 0 a 768px";
+}
+@media screen and (min-width:768px){
+    .box-media{
+        background: greenyellow;
+    }
+    .box-media::after{
+        content: Caja desde 768;
+    }
+} //va a aplicar estilos que van despues de 768
