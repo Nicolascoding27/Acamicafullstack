@@ -67,7 +67,7 @@ p {
   content: "caja desde 0 a 768px";
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
   .box-media {
     background: greenyellow;
   }

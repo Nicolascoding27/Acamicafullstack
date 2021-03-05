@@ -52,7 +52,8 @@ p{
 .box-media::after{
     content: "caja desde 0 a 768px";
 }
-@media screen and (min-width:768px){
+//Estilos para tablet 
+@media screen and (min-width:768px) and(max-width:1000px){
     .box-media{
         background: greenyellow;
     }
@@ -60,3 +61,4 @@ p{
         content: Caja desde 768;
     }
 } //va a aplicar estilos que van despues de 768
+//Estilos para portatil
