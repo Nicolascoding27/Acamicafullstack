@@ -136,4 +136,12 @@ header {
   color: white;
   background: linear-gradient(100deg, #D89E13, #171717);
 }
+
+.footer {
+  color: white;
+  font-size: 20px;
+  background: #171717;
+  text-align: center;
+  padding: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
