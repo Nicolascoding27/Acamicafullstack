@@ -36,4 +36,21 @@ header {
       grid-template-columns: 1fr 1fr 1fr 1fr;
   background: #171717;
 }
+
+.main-nav li {
+  background: #171717;
+  display: block;
+  padding: 0.8rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+
+.main-nav li:hover {
+  color: #D89E13;
+  cursor: pointer;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+}
 /*# sourceMappingURL=style.css.map */

@@ -16,7 +16,20 @@
     list-style: none;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background:$secondary-color;
-    
   }
+  li{
+    background:$secondary-color;//puedo ponerle color a las cajas;
+    display:block;
+    padding:0.8rem;
+    color:white;
+    text-transform: uppercase;
+    font-size:20px;
+    text-align: center;
+  &:hover{
+      color: $primary-color;
+       cursor:pointer;
+     transition:color 1s ease; 
+                }
+              }
   
 }
