@@ -1,0 +1,10 @@
+@media (max-width: 700px) {
+  .main-container {
+        grid-template-areas: 'left-container' 'right-container';
+  }
+  .main-nav ul {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+/*# sourceMappingURL=media.css.map */
