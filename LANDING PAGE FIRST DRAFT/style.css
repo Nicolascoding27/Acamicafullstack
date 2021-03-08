@@ -54,9 +54,17 @@ html, body {
   text-transform: uppercase;
   font-size: 30px;
   text-align: center;
+  list-style: none;
+  text-decoration: none;
 }
 
-.main-nav li:hover {
+.main-nav li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.main-nav li a:hover {
   color: #D89E13;
   cursor: pointer;
   -webkit-transition: color 1s ease;

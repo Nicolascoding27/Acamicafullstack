@@ -30,7 +30,7 @@ html,body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background:$secondary-color;
   }
-  li{
+   li{
     background:$secondary-color;//puedo ponerle color a las cajas;
     display:block;
     padding:0.8rem;
@@ -38,12 +38,19 @@ html,body{
     text-transform: uppercase;
     font-size:30px;
     text-align: center;
+    list-style: none;
+    text-decoration: none;
+    a{ 
+      list-style: none;
+      text-decoration: none;
+      color: white;
   &:hover{
       color: $primary-color;
        cursor:pointer;
      transition:color 1s ease; 
                 }
               } 
+            }
 }
 .main-container{
   color:white;
