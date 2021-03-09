@@ -1,0 +1,46 @@
+.oradores{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-column-gap:6px;
+    grid-row-gap:1px;
+    img{
+        width: 400px;
+        height: 300px;
+        border-radius: 90%;
+    }
+
+}
+.foto1{
+    grid-column:1;
+    grid-row: 1;
+}
+.foto2{
+    grid-column:1;
+    grid-row: 2;
+
+}
+.foto3{
+    grid-column:1;
+    grid-row: 3;
+
+}
+
+.cargo1{
+    grid-column: 2;
+    grid-row: 1;
+    margin: 50px 30px;
+    font-size: 17px;
+}
+.cargo2{
+    grid-column: 2;
+    grid-row: 2;
+    margin: 50px 30px;
+    font-size: 17px;
+}
+.cargo3{
+    grid-column: 2;
+    grid-row: 3;
+    margin: 50px 30px;
+    font-size: 17px;
+}

@@ -8,6 +8,10 @@
         grid-template-columns: 1fr;
         background:$primary-color;
     }
+    .oradores{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 }
 @media(max-width:370px){
     .main-container{
