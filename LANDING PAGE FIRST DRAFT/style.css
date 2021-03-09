@@ -106,6 +106,18 @@ html, body {
   margin: 30px 50px;
 }
 
+::-webkit-input-placeholder {
+  color: #D89E13;
+}
+
+::-moz-input-placeholder {
+  color: #D89E13;
+}
+
+::-ms-input-placeholder {
+  color: #D89E13;
+}
+
 .right-section {
   background: #171717;
   margin: 30px 50px;

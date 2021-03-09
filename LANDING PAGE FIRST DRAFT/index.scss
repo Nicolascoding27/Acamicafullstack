@@ -81,6 +81,15 @@ html,body{
     margin:30px 50px;
   }
 }
+::-webkit-input-placeholder{
+  color: $primary-color;
+}
+::-moz-input-placeholder{
+  color:$primary-color;
+}
+::-ms-input-placeholder{
+  color: $primary-color;
+}
 .right-section{
   background:$secondary-color;
   margin: 30px 50px;
