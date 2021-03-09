@@ -9,19 +9,10 @@
         background:$primary-color;
     }
     .oradores{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        // display: grid;
+        grid-template-columns:1;
+        grid-template-rows: 1;  
     }
+    
 }
-@media(max-width:370px){
-    .main-container{
-        background: $primary-color;
-        grid-template-areas:
-        'left-container'
-        'right-container'
-    }
-    .main-nav ul{
-        grid-template-columns: 1fr;
-        background:$primary-color;
-    }
-}
+

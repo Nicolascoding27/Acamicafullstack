@@ -167,22 +167,10 @@ html, body {
     background: #D89E13;
   }
   .oradores {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-  }
-}
-
-@media (max-width: 370px) {
-  .main-container {
-    background: #D89E13;
-        grid-template-areas: 'left-container' 'right-container';
-  }
-  .main-nav ul {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    background: #D89E13;
+    -ms-grid-columns: 1;
+        grid-template-columns: 1;
+    -ms-grid-rows: 1;
+        grid-template-rows: 1;
   }
 }
 
