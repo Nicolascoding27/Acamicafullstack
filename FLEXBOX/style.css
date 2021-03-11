@@ -68,4 +68,13 @@ body{
     width: 200px;
     flex-wrap: wrap-reverse;
 }
+.flex-flow{
+    display: flex;
+    border-top:2px solid navy;
+    flex-flow:row wrap;
+    width:200px;
+}
+.jc{
+    display: flex;
+}
 
