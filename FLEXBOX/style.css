@@ -43,5 +43,18 @@ main {
     display:flex;
     flex-direction: column-reverse;
 }
-
+.no-wrap{
+    border-top:2px solid navy;
+    display:flex;
+    flex-direction: row;
+    width: 200px;
+    flex-wrap: nowrap;
+}
+.wrap{
+    border-top:2px solid navy;
+    display:flex;
+    flex-direction: row;
+    width: 200px;
+    flex-wrap: wrap;
+}
 
