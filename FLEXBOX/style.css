@@ -92,4 +92,11 @@ body{
 .jc-space-around{
     justify-content: space-around;
 }
+.jcol{
+    display: flex;
+    border-top:2px solid navy;
+    flex-flow:column wrap;
+    height: 500px;
+    width: 300px;
+}
 
