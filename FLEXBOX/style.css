@@ -80,7 +80,9 @@ body{
     display: flex;
     flex-flow: row wrap;
 }
-.jc-start{
-        justify-content: start;
+.jc-end{
+        justify-content: flex-end;
 }
-
+.jc-center{
+    justify-content: center;
+}
