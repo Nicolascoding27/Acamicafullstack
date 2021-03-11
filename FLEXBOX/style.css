@@ -76,5 +76,11 @@ body{
 }
 .jc{
     display: flex;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.jc-start{
+        justify-content: start;
 }
 
