@@ -17,3 +17,8 @@ main {
     line-height: 50px;
     margin: 5px;
 }
+/* flex default position is "inline block" */
+.flex{
+    display: flex;
+}
+
