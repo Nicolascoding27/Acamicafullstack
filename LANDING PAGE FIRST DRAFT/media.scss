@@ -5,6 +5,7 @@
         'right-container'
     }
     .main-nav ul{
+        // display:none;
         grid-template-columns: 1fr;
         background:$primary-color;
     }

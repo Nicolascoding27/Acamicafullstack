@@ -8,6 +8,10 @@ html,body{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+.hamburger {
+  grid-column: 4;
+  justify-self: end;
+}
 .title{
   color:$primary-color;
   font-size:40px;
@@ -21,11 +25,15 @@ html,body{
   display: grid;
   grid-gap:20px;
 }
+.fa-bars {
+  font-size: 1.4em;
+}
 .main-nav {
   ul{
     display: grid;
     grid-gap:20px;
     padding:0;
+    justify-items: center;
     list-style: none;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background:$secondary-color;

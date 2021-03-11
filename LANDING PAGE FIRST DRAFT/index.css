@@ -10,6 +10,13 @@ html, body {
           box-sizing: border-box;
 }
 
+.hamburger {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
 .title {
   color: #D89E13;
   font-size: 40px;
@@ -21,11 +28,16 @@ html, body {
   grid-gap: 20px;
 }
 
+.fa-bars {
+  font-size: 1.4em;
+}
+
 .main-nav ul {
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
   padding: 0;
+  justify-items: center;
   list-style: none;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
