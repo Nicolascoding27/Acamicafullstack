@@ -16,9 +16,32 @@ main {
     text-align: center;
     line-height: 50px;
     margin: 5px;
+    
 }
 /* flex default position is "inline block" */
 .flex{
     display: flex;
+    border-top:2px solid navy;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+    border-top:2px solid navy;
+}
+.row-reverse{
+    border-top:2px solid navy;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.colum{
+    border-top:2px solid navy;
+    display:flex;
+    flex-direction: column;
+}
+.colum-reverse{
+    border-top:2px solid navy;
+    display:flex;
+    flex-direction: column-reverse;
+}
+
 
