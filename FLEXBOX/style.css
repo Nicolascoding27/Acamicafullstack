@@ -76,7 +76,7 @@ body{
 }
 .jc{
     display: flex;
-    height: 300px;
+    height: 200px;
     display: flex;
     flex-flow: row wrap;
 }
@@ -86,3 +86,10 @@ body{
 .jc-center{
     justify-content: center;
 }
+.jc-spacebetween{
+    justify-content: space-between;
+}
+.jc-space-around{
+    justify-content: space-around;
+}
+
