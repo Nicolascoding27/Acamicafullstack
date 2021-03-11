@@ -5,6 +5,10 @@
 }
 main {
     margin: 50px;
+    
+}
+body{
+    background-color:palevioletred
 }
  h2{
      border-top:2px solid navy;
