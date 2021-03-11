@@ -102,11 +102,11 @@ body{
 .ai{
     display: flex ;
     width: 500px;
-    hegiht:300px;
-    background-color: olive;
+    height:300px;
     border-top:2px solid navy;
     flex-flow: row wrap;
     margin: 5px;
+    background-color: lightgray;
 }
 .ai-start{
     align-items: flex-start;
