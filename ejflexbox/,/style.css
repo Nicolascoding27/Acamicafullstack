@@ -7,11 +7,26 @@ body{
     display: flex;
     flex-direction: row; 
 }
-header{
+.header{
     width: 100%;
     display: flex;
-
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding:20px 40px;
+    border-bottom: 5px solid black;
+    position: sticky;
+    top: 0;
 }
-header ul{
+header nav ul {
     list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+header nav ul li{
+    padding:0 20px;   
+}
+aside{
+    padding: 40px;
+    width:20%;
+    border-right: 2px solid black;
 }
