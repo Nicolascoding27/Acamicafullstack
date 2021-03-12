@@ -117,3 +117,24 @@ body{
 .ai-center{
     align-items: center;
 }
+.ai-baseline{
+    align-items: baseline;
+}
+.bas1{
+    color: black;
+    line-height: 120px;
+}
+.bas2{
+    color: red;
+    font-size: 38px;
+}
+.bas3{
+    color: black;
+    line-height: 90px;
+    font-size: 2px;
+}
+.bas4{
+    color: black;
+    line-height: 90px;
+    font-size: 20px;
+}
