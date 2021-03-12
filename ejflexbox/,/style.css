@@ -32,4 +32,34 @@ aside{
     width:20%;
     border-right: 2px solid black;
 }
+main
+{
+    width:80%;
+    display: flex;
+    flex-flow: row wrap;
 
+}
+.sectionUp{
+    display: flex;
+    text-align: justify;
+    /* flex-flow: row wrap;
+    align-items: center; */
+}
+.sectionUp p{
+    margin: 20px 40px ;
+}
+.sectionUp img{
+    margin: 20px 40px;
+}
+.sectionDown{
+    display: flex;
+    text-align: justify;
+    /* flex-flow: row wrap;
+    align-items: center; */
+}
+.sectionDown p{
+    margin: 20px 40px ;
+}
+.sectionDown img{
+    margin: 20px 40px;
+}
