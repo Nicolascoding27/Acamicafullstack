@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: row; 
+}
+header{
+    width: 100%;
+    display: flex;
+
+}
+header ul{
+    list-style: none;
+}
