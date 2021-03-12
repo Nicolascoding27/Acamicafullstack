@@ -2,26 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border:0;
 }
 body{
     display: flex;
-    flex-direction: row; 
+    flex-flow: row wrap; 
 }
 header{
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     padding:20px 40px;
-    border-bottom: 5px solid black;
+    border-bottom: 2px solid black;
     position: sticky;
-    justify-content: space-between;
     top: 0;
+    justify-content: space-between;
+    align-items: center;
 }
 header nav ul {
     list-style: none;
     display: flex;
     flex-flow: row wrap;
-    
 }
 header nav ul li{
     padding:0 20px;   
@@ -31,6 +32,4 @@ aside{
     width:20%;
     border-right: 2px solid black;
 }
-aside ul{
 
-}
