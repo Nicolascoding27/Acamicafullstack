@@ -43,8 +43,15 @@ main
 .sectionUp{
     display: flex;
     text-align: justify;
+    /* justify-content: center; */
     /* flex-flow: row wrap;
-    align-items: center; */
+    align-items: center; aca no es */
+}
+.sectionUp p{
+    display: flex;
+    /* centrar el parrafo
+     */
+    align-items: center; 
 }
 .sectionUp p{
     margin: 20px 40px ;
@@ -59,7 +66,9 @@ main
     align-items: center; */
 }
 .sectionDown p{
+    display: flex;
     margin: 20px 40px ;
+    align-items: center;
 }
 .sectionDown img{
     margin: 20px 40px;
