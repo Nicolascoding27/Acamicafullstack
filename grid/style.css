@@ -11,3 +11,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html,body{
+    font-family: ' Poppins',sans-serif;
+    color:  #111;
+}
+hr{
+    font-size: 30px;
+    font-weight: 500
+}
