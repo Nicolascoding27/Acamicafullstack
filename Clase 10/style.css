@@ -34,3 +34,34 @@
 .shrink-container{
     display: flex;
 }
+.flex-item{
+    background-color: tomato;
+    border: 3px solid rgba(0,0,0,0.2);
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    flex-basis: 20em;
+    display: flex;
+}
+.flex1{
+    flex-shrink: 1;
+}
+.flex2{
+    flex-shrink: 2;
+}
+.order-container{
+    display: flex;
+}
+.order-item{
+    background-color: tomato;
+    border: 3px solid rgba(0,0,0,0.2);
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    flex-basis: 200px;
+    display: flex;
+}
+/* order va de -1 a 1 si es menus uno queda de primero en el flex */
+.order-item:nth-of-type(2){
+    order: -1
+}
