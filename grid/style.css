@@ -11,6 +11,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    
+}
 html,body{
     font-family: ' Poppins',sans-serif;
     color:  #111;
@@ -18,4 +24,8 @@ html,body{
 hr{
     font-size: 30px;
     font-weight: 500
+}
+p{
+
+    margin: 20px 0 10px;
 }
