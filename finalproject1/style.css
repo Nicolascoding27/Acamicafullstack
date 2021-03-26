@@ -26,4 +26,8 @@ a {
   padding: 0;
   overflow: hidden;
 }
+
+.header ul a {
+  padding: 20px;
+}
 /*# sourceMappingURL=style.css.map */
