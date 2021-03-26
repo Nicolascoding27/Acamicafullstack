@@ -14,8 +14,14 @@ a{
         padding:0;
         overflow: hidden;//if something goes out it just does not show it
         a {
+           display: block ;
             padding: 20px;
+            text-decoration: none;
         }
     }
-
+}
+.logo{
+   float:left;
+   display: block;
+   padding: 10px 20px; 
 }

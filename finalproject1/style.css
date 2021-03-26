@@ -28,6 +28,12 @@ a {
 }
 
 .header ul a {
+  display: block;
   padding: 20px;
+  text-decoration: none;
+}
+
+.header .logo {
+  float: left;
 }
 /*# sourceMappingURL=style.css.map */
