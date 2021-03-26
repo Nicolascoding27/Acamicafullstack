@@ -4,6 +4,9 @@ body{
 a{
     color: #000;
 }
-header{
+.header{
+    background-color: $bg;
+    position: fixed;
+    z-index: 3;
     
 }
