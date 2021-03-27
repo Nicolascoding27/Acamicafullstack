@@ -37,6 +37,20 @@ a {
   background-color: red;
 }
 
+.header .menu {
+  clear: both;
+  max-height: 0;
+  -webkit-transition: max-height .2 ease-out;
+  transition: max-height .2 ease-out;
+}
+
+.header .menu-icon {
+  outline: 1px solid red;
+  padding: 28px 20px;
+  border: 1px solid red;
+  position: relative;
+}
+
 .logo {
   float: left;
   display: block;

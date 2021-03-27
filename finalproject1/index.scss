@@ -22,6 +22,18 @@ a{
             }
         }
     }
+    .menu{
+        clear:both;
+        max-height: 0;
+        transition: max-height .2 ease-out;
+    }
+    //Hamburger menu transformations
+    .menu-icon{
+        outline:1px solid red;
+        padding: 28px 20px;
+        border:1px solid red ;
+        position:relative;
+    }
 }
 .logo{
    float:left;
@@ -29,3 +41,5 @@ a{
    padding: 10px 20px; 
    font-size: 2em;
 }
+
+
