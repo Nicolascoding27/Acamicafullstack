@@ -69,6 +69,20 @@ a {
   height: 100%;
   width: 100%;
   top: 5px;
+  -webkit-transition: all .2s  ease-out;
+  transition: all .2s  ease-out;
+}
+
+.header .menu-icon .nav-icon:after {
+  background: #333;
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -5px;
+  -webkit-transition: all .2s  ease-out;
+  transition: all .2s  ease-out;
 }
 
 .header .logo {
