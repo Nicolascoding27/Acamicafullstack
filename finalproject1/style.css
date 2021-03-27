@@ -33,7 +33,14 @@ a {
   text-decoration: none;
 }
 
-.header .logo {
+.header ul a:hover {
+  background-color: red;
+}
+
+.logo {
   float: left;
+  display: block;
+  padding: 10px 20px;
+  font-size: 2em;
 }
 /*# sourceMappingURL=style.css.map */

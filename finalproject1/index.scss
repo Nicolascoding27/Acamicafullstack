@@ -16,7 +16,10 @@ a{
         a {
            display: block ;
             padding: 20px;
-            text-decoration: none;
+            text-decoration: none;  
+            &:hover{
+                background-color: red;
+            }
         }
     }
 }
@@ -24,4 +27,5 @@ a{
    float:left;
    display: block;
    padding: 10px 20px; 
+   font-size: 2em;
 }
