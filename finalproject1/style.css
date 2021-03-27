@@ -15,7 +15,6 @@ a {
 }
 
 .header {
-  background-color: #fff;
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -46,11 +45,11 @@ a {
 }
 
 .header .menu-icon {
-  outline: 1px solid red;
   padding: 28px 20px;
-  border: 1px solid red;
   position: relative;
   float: right;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .header .menu-icon .nav-icon {
@@ -92,5 +91,13 @@ a {
   display: block;
   padding: 10px 20px;
   font-size: 2em;
+}
+
+.header .menu-input {
+  display: none;
+}
+
+.header .menu-input:checked ~ menu {
+  max-height: 240px;
 }
 /*# sourceMappingURL=style.css.map */

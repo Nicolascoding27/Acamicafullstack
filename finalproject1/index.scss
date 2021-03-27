@@ -5,7 +5,7 @@ a{
     color: #000;
 }
 .header{
-    background-color: $bg;
+    // background-color: $bg;
     position: fixed;
     z-index: 3;
     width: 100%;
@@ -30,11 +30,11 @@ a{
     }
     //Hamburger menu transformations
     .menu-icon{
-        outline:1px solid red;
         padding: 28px 20px;
-        border:1px solid red ;
         position:relative;  
         float: right;
+        display: inline-block;
+        cursor:pointer;
         .nav-icon{
             background: #000;
             display: block;
@@ -70,8 +70,11 @@ a{
         padding: 10px 20px; 
         font-size: 2em;
      }
-     .menu-btn{
-
+     .menu-input{
+         display:none;
+        &:checked~menu{
+            max-height: 240px;
+        }
      }
 
 
