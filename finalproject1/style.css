@@ -18,6 +18,7 @@ a {
   background-color: #fff;
   position: fixed;
   z-index: 3;
+  width: 100%;
 }
 
 .header ul {
@@ -29,7 +30,7 @@ a {
 
 .header ul a {
   display: block;
-  padding: 20px;
+  padding: 20px 20px;
   text-decoration: none;
 }
 
@@ -49,6 +50,7 @@ a {
   padding: 28px 20px;
   border: 1px solid red;
   position: relative;
+  float: right;
 }
 
 .header .menu-icon .nav-icon {
