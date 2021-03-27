@@ -25,7 +25,7 @@ a{
     .menu{
         clear:both;
         max-height: 0;
-        transition: max-height .2 ease-out;
+        transition: max-height .2s ease-out;
     }
     //Hamburger menu transformations
     .menu-icon{
@@ -38,7 +38,17 @@ a{
             display: block;
             height: 2px;
             width:18px;
-            position:relative //posicion relativa para el span
+            position:relative; //posicion relativa para el span
+            transition:background .2s  ease-out;
+            &:before{
+                background: #333;
+                content:"";
+                display:block;
+                position:absolute;
+                height: 100%;
+                width:100%;
+                top:5px;
+            }
         }
     }
     .logo{
@@ -47,6 +57,7 @@ a{
         padding: 10px 20px; 
         font-size: 2em;
      }
+
 
 }
 
