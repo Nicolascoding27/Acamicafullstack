@@ -51,7 +51,7 @@ a {
   position: relative;
 }
 
-.logo {
+.header .logo {
   float: left;
   display: block;
   padding: 10px 20px;

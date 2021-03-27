@@ -32,14 +32,17 @@ a{
         outline:1px solid red;
         padding: 28px 20px;
         border:1px solid red ;
-        position:relative;
+        position:relative;  
     }
+    .logo{
+        float:left;
+        display: block;
+        padding: 10px 20px; 
+        font-size: 2em;
+     }
+   
 }
-.logo{
-   float:left;
-   display: block;
-   padding: 10px 20px; 
-   font-size: 2em;
-}
+
+
 
 
