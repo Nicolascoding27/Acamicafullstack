@@ -51,6 +51,14 @@ a {
   position: relative;
 }
 
+.header .menu-icon .nav-icon {
+  background: #000;
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+}
+
 .header .logo {
   float: left;
   display: block;

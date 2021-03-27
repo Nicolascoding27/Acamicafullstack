@@ -33,6 +33,13 @@ a{
         padding: 28px 20px;
         border:1px solid red ;
         position:relative;  
+        .nav-icon{
+            background: #000;
+            display: block;
+            height: 2px;
+            width:18px;
+            position:relative //posicion relativa para el span
+        }
     }
     .logo{
         float:left;
@@ -40,7 +47,7 @@ a{
         padding: 10px 20px; 
         font-size: 2em;
      }
-   
+
 }
 
 
