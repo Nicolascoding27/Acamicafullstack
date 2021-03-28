@@ -104,5 +104,12 @@ a {
 .header .menu-input:checked ~ .menu-icon .nav-icon:before {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
+  top: 0;
+}
+
+.header .menu-input:checked ~ .menu-icon .nav-icon:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 0;
 }
 /*# sourceMappingURL=style.css.map */

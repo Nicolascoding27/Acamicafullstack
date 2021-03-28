@@ -80,8 +80,11 @@ a{
         }
         &:checked ~.menu-icon .nav-icon:before{
             transform: rotate(-45deg);
+            top: 0;
         }
-        &:checked ~.menu-icon .nav-icon{
+        &:checked ~.menu-icon .nav-icon:after{
+            transform: rotate(45deg);
+            top:0;
 
         }
      }
