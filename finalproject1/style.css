@@ -97,7 +97,7 @@ a {
   display: none;
 }
 
-.header .menu-input:checked ~ menu {
+.header .menu-input:checked ~ .menu {
   max-height: 240px;
 }
 /*# sourceMappingURL=style.css.map */

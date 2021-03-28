@@ -72,7 +72,7 @@ a{
      }
      .menu-input{
          display:none;
-        &:checked~menu{
+        &:checked ~ .menu{
             max-height: 240px;
         }
      }
