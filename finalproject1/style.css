@@ -100,4 +100,9 @@ a {
 .header .menu-input:checked ~ .menu {
   max-height: 240px;
 }
+
+.header .menu-input:checked ~ .menu-icon .nav-icon:before {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
 /*# sourceMappingURL=style.css.map */

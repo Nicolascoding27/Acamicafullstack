@@ -75,6 +75,15 @@ a{
         &:checked ~ .menu{
             max-height: 240px;
         }
+        &:checked ~.menu-icon .nav-icon{
+            
+        }
+        &:checked ~.menu-icon .nav-icon:before{
+            transform: rotate(-45deg);
+        }
+        &:checked ~.menu-icon .nav-icon{
+
+        }
      }
 
 
