@@ -101,6 +101,10 @@ a {
   max-height: 240px;
 }
 
+.header .menu-input:checked ~ .menu-icon .nav-icon {
+  background: transparent;
+}
+
 .header .menu-input:checked ~ .menu-icon .nav-icon:before {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -111,5 +115,22 @@ a {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   top: 0;
+}
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
