@@ -131,12 +131,15 @@ a{
     };
 }
 .episodios-titulo{
-    padding:60px 10px;
+    width: 90%;
+    padding:60px 30px;
     color: white;
-    font-size: 1.5em;
+    font-size: 3.5rem;
     text-align:left;
     z-index: 2;
-    align-self: center;
+    // align-self: center;
+    font-weight:400;
+    line-height: 4rem;
 }
 .episodes--container {
     position: relative;
