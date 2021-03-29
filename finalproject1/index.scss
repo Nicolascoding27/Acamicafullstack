@@ -4,6 +4,7 @@ body{
 a{
     color: #000;
 }
+
 .header{
     // background-color: $bg;
     position: fixed;
@@ -89,6 +90,11 @@ a{
         }
      }
   
+}
+.title{
+    padding: 20em 20em;
+    font-size: 2em;
+    float: left;
 }
 @media (min-width:48em){
     .header{
