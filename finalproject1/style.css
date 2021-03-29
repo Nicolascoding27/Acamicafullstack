@@ -119,7 +119,7 @@ a {
 }
 
 .main {
-  padding: 60px 30px;
+  padding: 60px 10px;
   font-size: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,6 +129,8 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
+  min-width: 280px;
 }
 
 .main .descripcion {
