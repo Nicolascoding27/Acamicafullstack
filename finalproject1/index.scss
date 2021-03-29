@@ -68,7 +68,7 @@ a{
     .logo{
         float:left;
         display: block;
-        padding: 10px 50px; 
+        padding: 10px 30px; 
         font-size: 2em;
      }
      .menu-input{
@@ -93,10 +93,13 @@ a{
   
 }
 .main{
-    padding: 60px 50px;
+    padding: 60px 30px;
     font-size: 2em;
     float: left;
     white-space: nowrap;
+    .descripcion{
+        font-size: 0.5em;
+    }
 }
 @media (min-width:48em){
     .header{
