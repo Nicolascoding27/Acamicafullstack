@@ -170,6 +170,17 @@ a {
           transform: skewY(-5deg);
 }
 
+.episodios-titulo {
+  padding: 60px 10px;
+  color: white;
+  font-size: 1.5em;
+  text-align: left;
+  z-index: 2;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .episodes--container {
   position: relative;
   z-index: 2;
