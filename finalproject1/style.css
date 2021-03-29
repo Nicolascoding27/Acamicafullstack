@@ -133,13 +133,19 @@ a {
   min-width: 280px;
 }
 
+.main #title {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 4em;
+  color: #000000;
+}
+
 .main .descripcion {
   font-size: 0.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  text-align: left;
 }
 
 .main .conoceMas {
@@ -181,7 +187,7 @@ a {
   line-height: 4rem;
 }
 
-.episodes--container {
+.episodios-contenedor {
   position: relative;
   z-index: 2;
   display: -webkit-box;
@@ -195,7 +201,7 @@ a {
   margin: 0 auto;
 }
 
-.episodes--container .episodes--podcast-link iframe {
+.episodios-contenedor .episodes--podcast-link iframe {
   width: 100%;
   height: 232px;
   margin-bottom: 16px;
@@ -236,6 +242,23 @@ a {
   }
   .header .menu-icon {
     display: none;
+  }
+  .episodes-principal {
+    height: 950px;
+  }
+  .episodes-principal .episodios-contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 /*# sourceMappingURL=style.css.map */

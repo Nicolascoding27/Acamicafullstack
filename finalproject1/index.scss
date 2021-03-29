@@ -101,10 +101,17 @@ a{
     flex-direction: column;
     text-align: center;
     min-width: 280px;
+    #title{
+        text-align: left;
+        margin-top: 10px;
+        font-size:4em;
+        color: $font-color;
+    }
     .descripcion{
         font-size: 0.5em;
         display: flex;
-        flex-wrap: wrap;
+        text-align: left;
+
 
     }
     .conoceMas{
@@ -141,7 +148,7 @@ a{
     font-weight:400;
     line-height: 4rem;
 }
-.episodes--container {
+.episodios-contenedor{
     position: relative;
     z-index: 2;
     display: flex;
@@ -191,7 +198,20 @@ a{
             display: none;
         }
     }
-}
+    .episodes-principal{
+        height: 950px;
+        .episodios-contenedor{
+            display: flex;
+            flex-direction: unset;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .episodios-titulo{
+
+        }
+    }
+    }
+
 
 
 
