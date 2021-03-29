@@ -120,7 +120,9 @@ a {
 .main {
   padding: 60px 30px;
   font-size: 2em;
-  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   white-space: nowrap;
 }
 
@@ -133,8 +135,14 @@ a {
       flex-wrap: wrap;
 }
 
-.conoceMas {
+.main .conoceMas {
   background-color: black;
+  color: white;
+  padding: 20px 80px;
+  display: block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 @media (min-width: 48em) {
