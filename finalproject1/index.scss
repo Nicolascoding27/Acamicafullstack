@@ -68,13 +68,14 @@ a{
     .logo{
         float:left;
         display: block;
-        padding: 10px 20px; 
+        padding: 10px 50px; 
         font-size: 2em;
      }
      .menu-input{
          display:none;
         &:checked ~ .menu{
             max-height: 240px;
+            
         }
         &:checked ~.menu-icon .nav-icon{
             background: transparent;
@@ -91,7 +92,7 @@ a{
      }
   
 }
-.title{
+.main{
     padding: 60px 50px;
     font-size: 2em;
     float: left;

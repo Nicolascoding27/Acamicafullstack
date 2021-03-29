@@ -89,7 +89,7 @@ a {
 .header .logo {
   float: left;
   display: block;
-  padding: 10px 20px;
+  padding: 10px 50px;
   font-size: 2em;
 }
 
@@ -117,7 +117,7 @@ a {
   top: 0;
 }
 
-.title {
+.main {
   padding: 60px 50px;
   font-size: 2em;
   float: left;
