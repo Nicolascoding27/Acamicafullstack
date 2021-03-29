@@ -118,9 +118,10 @@ a {
 }
 
 .title {
-  padding: 20em 20em;
+  padding: 60px 50px;
   font-size: 2em;
   float: left;
+  white-space: nowrap;
 }
 
 @media (min-width: 48em) {
