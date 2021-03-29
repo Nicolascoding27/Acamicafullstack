@@ -124,6 +124,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   white-space: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .main .descripcion {
@@ -143,6 +147,7 @@ a {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  padding: 13px 80px;
 }
 
 @media (min-width: 48em) {
