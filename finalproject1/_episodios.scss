@@ -1,0 +1,23 @@
+.episodios-fondo{
+        // position: relative;
+        background-image: linear-gradient(rgba(0,0,255,1),rgba(0,0,163,1));
+        clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% calc(100% - 7vw), 0% 100%);
+        height: 1200px;
+        margin-top: 24px;
+        .episodios-titulo{
+            padding-top:64px;
+            padding-left: 16px;
+            color: white;//change
+            font-weight: 600;
+            font-size:36px;
+        }
+    .grid-podcast{
+        margin-top: 21px;
+        display:grid;
+        width: 100%;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        row-gap:11px;
+        padding:0px 11px;
+    }
+    }

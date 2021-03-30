@@ -6,19 +6,49 @@
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-body {
-  background: #fff;
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: gray;
+  width: 288px;
+  height: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #060A24;
+}
+
+.translate {
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-90px);
 }
 
 a {
   color: #000;
 }
 
+.sub-header {
+  height: 44px;
+  width: 100%;
+}
+
 .header {
   position: fixed;
-  z-index: 3;
+  z-index: 1;
   width: 100%;
   background: white;
+}
+
+.header::after {
+  width: 100%;
+  height: 100%;
 }
 
 .header ul {
@@ -46,7 +76,7 @@ a {
 }
 
 .header .menu-icon {
-  padding: 28px 20px;
+  padding: 20px 20px;
   position: relative;
   float: right;
   display: inline-block;
@@ -118,136 +148,12 @@ a {
   top: 0;
 }
 
-.main {
-  padding: 24px 20px;
-}
-
-.main .info {
-  margin: 39px 0 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 90%;
-  height: 280px;
-  min-width: 280px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-  min-width: 280px;
-  -ms-flex-item-align: center;
-      align-self: center;
-}
-
-.main .info #title {
-  text-align: left;
-  margin-top: 30px;
-  font-size: 2.5em;
-  color: #000000;
-  line-height: 4rem;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.main .info .descripcion {
-  font-size: 0.5em;
-  margin-top: 15px;
-  text-align: left;
-  line-height: 2em;
-  color: #000000;
-  font-size: 1.5em;
-}
-
-.main .info .conoceMas {
-  background-color: black;
-  color: white;
-  padding: 20px 80px;
-  display: block;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  padding: 13px 80px;
-  margin-top: 35px;
-  width: 100%;
-  max-width: 288px;
-}
-
-.episodios-fondo {
-  position: relative;
-}
-
-.episodios-fondo::after {
-  display: block;
-  background: blue;
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-transform: skewY(-5deg);
-          transform: skewY(-5deg);
-}
-
-.episodios-titulo {
-  width: 90%;
-  padding: 60px 30px;
-  color: white;
-  font-size: 3.5rem;
-  text-align: left;
-  z-index: 2;
-  font-weight: 400;
-  line-height: 4rem;
-}
-
-.grid-podcast {
-  position: relative;
-  display: -ms-grid;
-  display: grid;
-  width: 100%;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  justify-items: center;
-  padding: 0px 11px;
-}
-
-.grid-podcast .episodes--podcast-link iframe {
-  width: 100%;
-  height: 232px;
-  margin-bottom: 16px;
-  line-height: 0;
-  border: 0;
-  background-color: transparent;
-  z-index: 2;
-}
-
-.episodes-principal {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  min-width: 320px;
-  height: 1235px;
-  padding: 20px 16px;
-}
-
 @media (min-width: 48em) {
   .main {
     height: 360px;
     padding: 0 50px;
   }
-  .main \
-h1 {
+  .main h1 {
     margin-top: 120px;
     font-size: 6em;
   }
@@ -265,22 +171,71 @@ h1 {
   .header .menu-icon {
     display: none;
   }
-  .episodes-principal {
-    height: 950px;
-  }
-  .episodes-principal .episodios-contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: unset;
-    -webkit-box-direction: unset;
-        -ms-flex-direction: unset;
-            flex-direction: unset;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
+}
+
+.episodios-fondo {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(#0000a3));
+  background-image: linear-gradient(blue, #0000a3);
+  -webkit-clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% calc(100% - 7vw), 0% 100%);
+          clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% calc(100% - 7vw), 0% 100%);
+  height: 1200px;
+  margin-top: 24px;
+}
+
+.episodios-fondo .episodios-titulo {
+  padding-top: 64px;
+  padding-left: 16px;
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.episodios-fondo .grid-podcast {
+  margin-top: 21px;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  row-gap: 11px;
+  padding: 0px 11px;
+}
+
+.phone img {
+  width: 320px;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.info h1 {
+  margin-top: 29px;
+  padding-left: 16px;
+  font-size: 36px;
+  color: #060A24;
+}
+
+.info p {
+  margin-top: 16px;
+  padding-right: 45px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #060A24;
+}
+
+.info .button {
+  margin-top: 36px;
+  padding-left: 16px;
 }
 /*# sourceMappingURL=style.css.map */

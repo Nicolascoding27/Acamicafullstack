@@ -1,0 +1,23 @@
+@import 'variables';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.button{
+    display: flex;
+    align-self: center;
+    background-color: $primary-color;
+    width:288px;
+    height:48px;
+    // vertical-align: center;
+    align-items: center;
+    margin-top: 10px;
+    justify-content:center; 
+    color: $font-color;
+}
+.translate{
+    transform: translateY(-90px);
+
+}
