@@ -12,7 +12,8 @@
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
-  background-color: gray;
+  background-color: #00F3BB;
+  color: white;
   width: 288px;
   height: 48px;
   -webkit-box-align: center;
@@ -22,12 +23,21 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #060A24;
 }
 
 .translate {
   -webkit-transform: translateY(-90px);
           transform: translateY(-90px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 a {
@@ -62,10 +72,9 @@ a {
   display: block;
   padding: 20px 20px;
   text-decoration: none;
-}
-
-.header ul a:hover {
-  background-color: red;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(#0000a3));
+  background-image: linear-gradient(blue, #0000a3);
+  color: white;
 }
 
 .header .menu {
@@ -130,6 +139,7 @@ a {
 
 .header .menu-input:checked ~ .menu {
   max-height: 240px;
+  background-color: blue, #0000a3;
 }
 
 .header .menu-input:checked ~ .menu-icon .nav-icon {

@@ -8,16 +8,19 @@
 .button{
     display: flex;
     align-self: center;
-    background-color: $primary-color;
+    background-color: $button-color;
+    color: white;
     width:288px;
     height:48px;
     // vertical-align: center;
     align-items: center;
     margin-top: 10px;
     justify-content:center; 
-    color: $font-color;
 }
 .translate{
     transform: translateY(-90px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 }

@@ -26,9 +26,9 @@ a{
            display: block ;
             padding: 20px 20px;
             text-decoration: none;  
-            &:hover{
-                background-color: red;
-            }
+            background-image:linear-gradient(rgba(0,0,255,1),rgba(0,0,163,1));
+            color: white;
+            
         }
     }
     .menu{
@@ -82,6 +82,7 @@ a{
          display:none;
         &:checked ~ .menu{
             max-height: 240px;
+            background-color: (rgba(0,0,255,1),rgba(0,0,163,1));
             
         }
         &:checked ~.menu-icon .nav-icon{
@@ -99,110 +100,6 @@ a{
      }
   
 }
-// .main{
-//      padding: 24px 20px;
-//     .info{
-//     // padding: 60px 10px;
-//     margin: 39px 0 24px;
-//     display: flex;
-//     width: 90%;
-//     height: 280px;
-//     min-width: 280px;
-//     flex-direction: column;
-//     text-align: center;
-//     min-width: 280px;
-//     align-self: center;
-//     #title{
-//         text-align: left;
-//         margin-top: 30px;
-//         font-size:2.5em;
-//         color: $font-color;
-//         line-height: 4rem;
-//         align-self: center;
-//     }
-//     .descripcion{
-//         font-size: 0.5em;
-//         margin-top: 15px;
-//         text-align: left;
-//         line-height:2em;
-//         color:$font-color;
-//         font-size: 1.5em;
-//     }
-//     .conoceMas{
-//         background-color: black;
-//         color: white;
-//         padding: 20px 80px;
-//         display: block;
-//         align-self: center;
-//         padding: 13px 80px;
-//         margin-top: 35px;
-//         width:100%;
-//         max-width:288px;
-//     }
-// }
-// }
-// .episodios-fondo{
-//     // position: relative;
-//     height: 1203px;
-//     &::after{
-//         display:block;
-//         background: blue;
-//         // position: absolute;
-//         content:"";
-//         top:0;
-//         left:0;
-//         width:100%;
-//         height: 100%;
-//         transform: skewY(-5deg);
-//     };
-// }
-// .episodios-titulo{
-//     width: 90%;
-//     padding:60px 30px;
-//     color: white;
-//     font-size: 3.5rem;
-//     text-align:left;
-//     // z-index: 2;
-//     // align-self: center;
-//     font-weight:400;
-//     line-height: 4rem;
-// }
-// .grid-podcast{
-//     // position: relative;
-//     // z-index: 2;
-//     display: grid;
-//     width:100%;
-//     // min-width: 288px;
-//     grid-template-columns: 1fr;
-//     justify-items:center;
-//     padding:0px 11px; 
-// }   
-        // iframe { 
-        //     width: 100%;
-        //     height: 232px;
-        //     margin-bottom: 16px;
-        //     line-height: 0;
-        //     border: 0;
-        //     background-color: transparent;
-        //     z-index:2;
-        // }
-    // }
-  
-// .episodes-principal{
-//     position: relative;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     width: 100%;
-//     min-width: 320px;
-//     height: 1235px;
-//     padding: 20px 16px;
-//     // .episodes--subtitle,
-//     // .episodes--container {
-//     //     position: relative;
-//     //     z-index: 2;
-//     // }
-// }
 @media (min-width:48em){
     .main{
         height: 360px;
@@ -230,17 +127,7 @@ a{
         }
     }
 }
-    // .episodes-principal{
-    //     height: 950px;
-    //     .episodios-contenedor{
-    //         display: flex;
-    //         flex-direction: unset;
-    //         flex-wrap: wrap;
-    //         justify-content: space-between;
-    //     }
-    //     .episodios-titulo{
-
-    //     }
+   
 
 
 
