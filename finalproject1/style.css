@@ -72,14 +72,12 @@ a {
   display: block;
   padding: 20px 20px;
   text-decoration: none;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(#0000a3));
-  background-image: linear-gradient(blue, #0000a3);
-  color: white;
 }
 
 .header .menu {
   clear: both;
   max-height: 0;
+  background: white;
   -webkit-transition: max-height .2s ease-out;
   transition: max-height .2s ease-out;
 }
@@ -139,7 +137,11 @@ a {
 
 .header .menu-input:checked ~ .menu {
   max-height: 240px;
-  background-color: blue, #0000a3;
+}
+
+.header .menu-input:checked ~ .menu a {
+  background-color: #0000EC;
+  color: white;
 }
 
 .header .menu-input:checked ~ .menu-icon .nav-icon {
@@ -172,6 +174,7 @@ a {
   }
   .header a {
     padding: 20px 30px;
+    background: white;
   }
   .header .menu {
     clear: none;
@@ -216,6 +219,24 @@ a {
   width: 320px;
 }
 
+.titulo-invitados {
+  margin-top: 54px;
+  padding: 0px 16px;
+}
+
+.grid-invitados {
+  margin-top: 14px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.grid-invitados img {
+  width: 100%;
+  height: 243px;
+}
+
 .info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -252,5 +273,14 @@ a {
 .info-container {
   margin-top: 27px;
   padding: 0px 16px;
+}
+
+.info-container .title-info {
+  font-size: 36px;
+}
+
+.info-container p {
+  margin-top: 8px;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */

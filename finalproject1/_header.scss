@@ -26,14 +26,15 @@ a{
            display: block ;
             padding: 20px 20px;
             text-decoration: none;  
-            background-image:linear-gradient(rgba(0,0,255,1),rgba(0,0,163,1));
-            color: white;
+            // background-color:#0000EC;
+            // color: white;
             
         }
     }
     .menu{
         clear:both;
         max-height: 0;
+        background: white;
         transition: max-height .2s ease-out;
     }
     //Hamburger menu transformations
@@ -80,10 +81,16 @@ a{
      }
      .menu-input{
          display:none;
+        //  &:checked ~ a{
+        //     background-color:#0000EC;
+            
+        // }
         &:checked ~ .menu{
             max-height: 240px;
-            background-color: (rgba(0,0,255,1),rgba(0,0,163,1));
-            
+            a{
+                background-color:#0000EC;
+                color: white;
+            }
         }
         &:checked ~.menu-icon .nav-icon{
             background: transparent;
@@ -116,11 +123,13 @@ a{
         }
         a{
             padding: 20px 30px;
+            background: white;
         }
         .menu{
             clear: none;
             float: right;
             max-height: none;
+            // background: white;
         }
         .menu-icon{
             display: none;
