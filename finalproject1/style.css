@@ -219,6 +219,24 @@ a {
   width: 320px;
 }
 
+.grid-topics {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid-topics img {
+  margin-top: 24px;
+  padding-left: 108px;
+}
+
 .titulo-invitados {
   margin-top: 54px;
   padding: 0px 16px;
