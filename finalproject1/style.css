@@ -192,19 +192,20 @@ a {
   -webkit-clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% calc(100% - 7vw), 0% 100%);
           clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% calc(100% - 7vw), 0% 100%);
   height: 1200px;
+  width: 100%;
   margin-top: 24px;
 }
 
-.episodios-fondo .episodios-titulo {
+.episodios-fondo h2 {
   padding-top: 64px;
   padding-left: 16px;
   color: white;
   font-weight: 600;
   font-size: 36px;
+  padding: 64px 0px 21px 16px;
 }
 
 .episodios-fondo .grid-podcast {
-  margin-top: 21px;
   display: -ms-grid;
   display: grid;
   width: 100%;
@@ -213,6 +214,12 @@ a {
       grid-template-columns: 1fr;
   row-gap: 11px;
   padding: 0px 11px;
+}
+
+.episodios-fondo .grid-podcast .podcast {
+  border: none;
+  width: 100%;
+  height: 232px;
 }
 
 .footer {
@@ -233,12 +240,16 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .footer .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -246,6 +257,9 @@ a {
 
 .footer .social li {
   list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer h2 {

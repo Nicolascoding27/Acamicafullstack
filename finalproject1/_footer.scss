@@ -4,14 +4,16 @@
     align-items: center;
     // justify-content: center;
     width: 100%;
-    .social{
-        display: flex;
-        justify-content: space-between;
+    .social{     
+        display: flex;                                                               
         ul{
+            display: flex;
+            flex-direction: row;
             justify-content: space-between;
         }
         li{
             list-style: none;
+            justify-content: space-between;
         }
     }
     h2{
