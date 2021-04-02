@@ -1,0 +1,6 @@
+.footer-bg{
+    background-image: $gradient;
+    height: 341px;
+    width:100%;
+    clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% calc(100% - 7vw), 0% 100%);
+}

@@ -215,6 +215,15 @@ a {
   padding: 0px 11px;
 }
 
+.footer-bg {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(#0000a3));
+  background-image: linear-gradient(blue, #0000a3);
+  height: 341px;
+  width: 100%;
+  -webkit-clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% calc(100% - 7vw), 0% 100%);
+          clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% calc(100% - 7vw), 0% 100%);
+}
+
 .phone img {
   width: 320px;
 }
