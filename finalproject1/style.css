@@ -220,8 +220,8 @@ a {
   background-image: linear-gradient(blue, #0000a3);
   height: 341px;
   width: 100%;
-  -webkit-clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% calc(100% - 7vw), 0% 100%);
-          clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% calc(100% - 7vw), 0% 100%);
+  -webkit-clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% 100%, 0% 100%);
 }
 
 .phone img {
@@ -244,6 +244,23 @@ a {
 .grid-topics img {
   margin-top: 24px;
   padding-left: 108px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid-topics p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .titulo-invitados {

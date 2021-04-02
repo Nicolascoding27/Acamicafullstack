@@ -1,4 +1,5 @@
 .phone{
+    
     img{
         width:320px;
         
@@ -12,5 +13,14 @@
     img{
         margin-top:24px;
         padding-left:108px;
+        align-items: center;
+        justify-content: center;
+    }
+    p{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'IBM Plex Sans', sans-serif;
+        
     }
 }
