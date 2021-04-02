@@ -1,0 +1,31 @@
+.novedades-bg{
+    background-image:$gradient;
+    height: 341px;
+    width:100%;
+    clip-path: polygon(0% calc(0% + 7vw), 100% 0%, 100% 100%, 0% 100%);
+    .title-conocer{
+        font-size: 36px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 42px;
+        padding:64px 16px;
+    }
+    .information {
+        margin-top: 36px;
+        text-align: center;
+        color:#060A24;
+        font-size: 16px ;
+        text-decoration: none;
+        // margin-left: 16px;
+        // margin-right: 16px;
+        margin: 0px 16px;
+        font-family: 'IBM Plex Mono-Medium', monospace;
+        font-size: 16px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 22px;
+        text-transform: uppercase;
+    }
+}
+
