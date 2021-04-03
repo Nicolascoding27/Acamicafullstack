@@ -5,22 +5,39 @@
         
     }
 }
+.topics{
+    h2{
+        font-weight: 900;
+        width: 288px;
+        padding: 48px 16px 0px 16px;
+        font-size: 36px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;
+    }
+}
 .grid-topics{
     display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
+    grid-column: 1fr;
     justify-content: center;
-    img{
+    row-gap: 36px;
+    padding-top: 37px;
+    padding-bottom: 42px;
+    .img-topic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-top:24px;
-        padding-left:108px;
-        align-items: center;
-        justify-content: center;
-    }
-    p{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        font-family: 'IBM Plex Sans', sans-serif;
+        p{
+            text-align: center;
+            font-family: 'IBM Plex Sans-SemiBold', sans-serif;
+            font-size: 24px;
+            color: #060A24;
+            width: 288px;
+            font-weight: 700;
+        }
         
     }
+  
+    
 }

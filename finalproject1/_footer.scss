@@ -5,15 +5,25 @@
     // justify-content: center;
     width: 100%;
     .social{     
-        display: flex;                                                               
         ul{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+        display: flex;     
+        width: 202px;   
+        justify-content: space-between;
         }
         li{
             list-style: none;
-            justify-content: space-between;
+            a{
+                text-decoration:none;
+                i{
+                    font-size: 16px;
+                    letter-spacing: 0;
+                    line-height: 28px;
+                     color: #060A24;
+                    &:hover {
+                        color: $button-color
+                    }
+                }
+               
         }
     }
     h2{
@@ -22,5 +32,6 @@
         letter-spacing: 0;
         line-height: 22px;
         padding: 24px 47px;
+    }
     }
 }

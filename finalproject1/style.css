@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .button {
+  font-family: 'IBM Plex Mono-Medium', monospace;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,10 +20,22 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 10px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#00f0b8), to(#0000fe));
+  background-image: linear-gradient(left, #00f0b8, #0000fe);
+  color: white;
 }
 
 .translate {
@@ -236,20 +249,11 @@ a {
   width: 100%;
 }
 
-.footer .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .footer .social ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  width: 202px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -257,12 +261,24 @@ a {
 
 .footer .social li {
   list-style: none;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-.footer h2 {
+.footer .social li a {
+  text-decoration: none;
+}
+
+.footer .social li a i {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  color: #060A24;
+}
+
+.footer .social li a i:hover {
+  color: #00F3BB;
+}
+
+.footer .social h2 {
   font-size: 14px;
   color: #060A24;
   letter-spacing: 0;
@@ -274,39 +290,50 @@ a {
   width: 320px;
 }
 
+.topics h2 {
+  font-weight: 900;
+  width: 288px;
+  padding: 48px 16px 0px 16px;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
 .grid-topics {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-grid-column: 1;
+  grid-column: 1fr;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  row-gap: 36px;
+  padding-top: 37px;
+  padding-bottom: 42px;
 }
 
-.grid-topics img {
+.grid-topics .img-topic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 24px;
-  padding-left: 108px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.grid-topics p {
+.grid-topics .img-topic p {
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans-SemiBold', sans-serif;
+  font-size: 24px;
+  color: #060A24;
+  width: 288px;
+  font-weight: 700;
 }
 
 .titulo-invitados {
@@ -382,6 +409,16 @@ a {
 }
 
 .novedades-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(#0000a3));
   background-image: linear-gradient(blue, #0000a3);
   height: 341px;
@@ -396,21 +433,7 @@ a {
   letter-spacing: 0;
   text-align: center;
   line-height: 42px;
-  padding: 64px 16px;
-}
-
-.novedades-bg .information {
-  margin-top: 36px;
-  text-align: center;
-  color: #060A24;
-  font-size: 16px;
-  text-decoration: none;
-  margin: 0px 16px;
-  font-family: 'IBM Plex Mono-Medium', monospace;
-  font-size: 16px;
-  color: #060A24;
-  letter-spacing: 0;
-  line-height: 22px;
-  text-transform: uppercase;
+  padding: 64px 16px 36px 16px;
+  width: 288px;
 }
 /*# sourceMappingURL=style.css.map */
