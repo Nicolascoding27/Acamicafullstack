@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap");
+@aimport url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -53,6 +54,7 @@
           flex-direction: column;
 }
 
+@aimport url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
 a {
   color: #000;
 }
@@ -63,6 +65,7 @@ a {
 }
 
 .header {
+  font-family: "IBM Plex Sans", sans-serif;
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -209,7 +212,7 @@ a {
   margin-top: 24px;
 }
 
-.episodios-fondo h2 {
+.episodios-fondo .episodios-titulo {
   padding-top: 64px;
   padding-left: 16px;
   color: white;
@@ -372,6 +375,7 @@ a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .info h1 {
