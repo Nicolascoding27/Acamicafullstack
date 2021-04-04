@@ -303,6 +303,7 @@ a {
   color: #060A24;
   letter-spacing: 0;
   line-height: 42px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .grid-topics {
@@ -344,6 +345,9 @@ a {
 .guests .titulo-invitados {
   padding: 0px 16px;
   width: 288px;
+  font-size: 36px;
+  color: #060A24;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .guests .grid-invitados {
