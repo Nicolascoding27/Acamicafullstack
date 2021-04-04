@@ -52,6 +52,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 @aimport url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
@@ -65,7 +66,6 @@ a {
 }
 
 .header {
-  font-family: "IBM Plex Sans", sans-serif;
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -210,6 +210,7 @@ a {
   height: 1200px;
   width: 100%;
   margin-top: 24px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .episodios-fondo .episodios-titulo {
@@ -219,6 +220,7 @@ a {
   font-weight: 600;
   font-size: 36px;
   padding: 64px 0px 21px 16px;
+  line-height: 42px;
 }
 
 .episodios-fondo .grid-podcast {
@@ -339,12 +341,12 @@ a {
   font-weight: 700;
 }
 
-.titulo-invitados {
-  margin-top: 54px;
+.guests .titulo-invitados {
   padding: 0px 16px;
+  width: 288px;
 }
 
-.grid-invitados {
+.guests .grid-invitados {
   margin-top: 14px;
   display: -ms-grid;
   display: grid;
@@ -352,12 +354,12 @@ a {
       grid-template-columns: 1fr;
 }
 
-.grid-invitados img {
+.guests .grid-invitados img {
   width: 100%;
   min-height: 243px;
 }
 
-.grid-invitados p {
+.guests .grid-invitados p {
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -395,6 +397,7 @@ a {
   width: 288px;
   line-height: 22px;
   height: 66px;
+  width: 288px;
 }
 
 .info .button {
@@ -412,8 +415,11 @@ a {
 }
 
 .info-container p {
-  margin-top: 8px;
+  padding-top: 8px;
   font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+  letter-spacing: 0;
 }
 
 .novedades-bg {

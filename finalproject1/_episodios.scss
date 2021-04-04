@@ -5,13 +5,16 @@
         height: 1200px;
         width: 100%;
         margin-top: 24px;
+        font-family: $font;
         .episodios-titulo{
+
             padding-top:64px;
             padding-left: 16px;
             color: white;//change
             font-weight: 600;
             font-size:36px;
             padding: 64px 0px 21px 16px;
+            line-height: 42px;
         }
     .grid-podcast{
         display:grid;
