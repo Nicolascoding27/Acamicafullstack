@@ -155,8 +155,8 @@ a {
   max-height: 224px;
 }
 
-.header .menu-input:checked ~ .menu ul:nth-child(1) {
-  margin-top: 16px;
+.header .menu-input:checked ~ .menu .first-element {
+  padding-top: 16PX;
 }
 
 .header .menu-input:checked ~ .menu a {

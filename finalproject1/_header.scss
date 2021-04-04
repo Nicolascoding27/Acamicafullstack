@@ -85,9 +85,9 @@ a{
          display:none;
         &:checked ~ .menu{
             max-height: 224px;
-            ul:nth-child(1){
-            margin-top:16px
-            }
+           .first-element{
+               padding-top: 16PX;
+           }
             a{
                 background-color:#0000EC;
                 color: #FFFFFF;
