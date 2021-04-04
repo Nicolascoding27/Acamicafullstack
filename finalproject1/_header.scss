@@ -19,16 +19,16 @@ a{
     }
     
     ul{
+
         list-style: none;
-        margin: 0;
-        padding:0;
+        margin-top:16px;
         overflow: hidden;//if something goes out it just does not show it
+        
         a {
-           display: block ;
-            padding: 20px 20px;
+            display: block ;
+            padding: 0px 0px 16px 24px;
             text-decoration: none;  
-            // background-color:#0000EC;
-            // color: white;
+            
             
         }
     }
@@ -37,6 +37,7 @@ a{
         max-height: 0;
         background: white;
         transition: max-height .2s ease-out;
+        font-family: 'IBM Plex Mono',sans-serif;
     }
     //Hamburger menu transformations
     .menu-icon{
@@ -82,15 +83,16 @@ a{
      }
      .menu-input{
          display:none;
-        //  &:checked ~ a{
-        //     background-color:#0000EC;
-            
-        // }
         &:checked ~ .menu{
-            max-height: 240px;
+            max-height: 224px;
+            ul:nth-child(1){
+            margin-top:16px
+            }
             a{
                 background-color:#0000EC;
-                color: white;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                line-height: 28px;
             }
         }
         &:checked ~.menu-icon .nav-icon{

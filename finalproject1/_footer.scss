@@ -2,10 +2,17 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    
+    margin-top:24px;
+   .text-footer{
+    font-family: 'IBM Plex Mono',sans-serif;
+    font-size: 14px;
+    color: #040405;
+    font-weight: 300;
+   }
     // justify-content: center;
     width: 100%;
-    .social{     
+    .social{   
+        margin-top: 16px;  
         ul{
         display: flex;     
         width: 202px;   

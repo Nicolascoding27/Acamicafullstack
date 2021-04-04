@@ -79,14 +79,13 @@ a {
 
 .header ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin-top: 16px;
   overflow: hidden;
 }
 
 .header ul a {
   display: block;
-  padding: 20px 20px;
+  padding: 0px 0px 16px 24px;
   text-decoration: none;
 }
 
@@ -96,6 +95,7 @@ a {
   background: white;
   -webkit-transition: max-height .2s ease-out;
   transition: max-height .2s ease-out;
+  font-family: 'IBM Plex Mono',sans-serif;
 }
 
 .header .menu-icon {
@@ -152,12 +152,18 @@ a {
 }
 
 .header .menu-input:checked ~ .menu {
-  max-height: 240px;
+  max-height: 224px;
+}
+
+.header .menu-input:checked ~ .menu ul:nth-child(1) {
+  margin-top: 16px;
 }
 
 .header .menu-input:checked ~ .menu a {
   background-color: #0000EC;
-  color: white;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 28px;
 }
 
 .header .menu-input:checked ~ .menu-icon .nav-icon {
@@ -251,7 +257,19 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 24px;
   width: 100%;
+}
+
+.footer .text-footer {
+  font-family: 'IBM Plex Mono',sans-serif;
+  font-size: 14px;
+  color: #040405;
+  font-weight: 300;
+}
+
+.footer .social {
+  margin-top: 16px;
 }
 
 .footer .social ul {
@@ -453,5 +471,6 @@ a {
   line-height: 42px;
   padding: 64px 16px 36px 16px;
   width: 288px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
