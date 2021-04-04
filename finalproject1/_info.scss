@@ -11,11 +11,15 @@
     }
     p{
         // width: 90%;
+        font-family: 'IBM Plex Mono',sans-serif;
         margin-top: 16px;
         padding-right: 45px;
         padding-left:20px;
         font-size:14px;
         color:$font-color;
+        width: 288px;
+        line-height: 22px;
+        height: 66px;
     }
     .button{
         margin-top: 36px;

@@ -386,11 +386,15 @@ a {
 }
 
 .info p {
+  font-family: 'IBM Plex Mono',sans-serif;
   margin-top: 16px;
   padding-right: 45px;
   padding-left: 20px;
   font-size: 14px;
   color: #060A24;
+  width: 288px;
+  line-height: 22px;
+  height: 66px;
 }
 
 .info .button {
