@@ -1,13 +1,19 @@
+$text-smallScreen:'Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.';
+$text-bigScreen:'El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.';
 .info{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    font-family: $font;
     h1{
+        white-space: nowrap;
+        font-weight: 400;
         margin-top: 29px;
         padding-left:16px;
         font-size: 36px;
         color:$font-color;
+        width: 214px;
+        padding-right: 40px;
+        font-family: $font;
     }
     p{
         // width: 90%;
@@ -20,7 +26,9 @@
         width: 288px;
         line-height: 22px;
         height: 66px;
-        width: 288px;
+        &:after{
+            content: $text-smallScreen;
+        }
     }
     .button{
         margin-top: 36px;
@@ -41,4 +49,33 @@
         letter-spacing: 0;
     }
 
+}
+//desktop version
+@media screen and (min-width:1200px) {
+    .info{
+        .button{
+            align-self: flex-start;
+            margin-left: $margin-big;
+        }
+        p{
+            font-size: 16px;
+            width: 628px;
+            padding-left: $margin-big;
+            &:after{
+                content: $text-bigScreen;
+            }
+        }
+        h1{
+            width:722px;
+            padding-left:$margin-big;
+            white-space: nowrap;
+            br{
+                display:none;
+            }
+        }
+    }
+    span{
+        color:#0000EC
+    }
+    
 }
