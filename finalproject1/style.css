@@ -264,6 +264,25 @@ a {
   height: 232px;
 }
 
+@media screen and (min-width: 1200px) {
+  .episodios-fondo {
+    height: 900px;
+  }
+  .episodios-fondo .episodios-titulo {
+    margin-left: 200px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    padding-top: 186px;
+  }
+  .episodios-fondo .grid-podcast {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 72px 72px;
+  }
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
