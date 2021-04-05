@@ -37,6 +37,7 @@
   background-image: -webkit-gradient(linear, left top, right top, from(#00f0b8), to(#0000fe));
   background-image: linear-gradient(left, #00f0b8, #0000fe);
   color: white;
+  cursor: pointer;
 }
 
 .translate {
@@ -164,6 +165,7 @@ a {
   color: #FFFFFF;
   letter-spacing: 0;
   line-height: 28px;
+  font-weight: -100;
 }
 
 .header .menu-input:checked ~ .menu-icon .nav-icon {
@@ -358,6 +360,12 @@ a {
   color: #060A24;
   width: 288px;
   font-weight: 700;
+}
+
+.guests {
+  margin-top: 54px;
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-90px);
 }
 
 .guests .titulo-invitados {
