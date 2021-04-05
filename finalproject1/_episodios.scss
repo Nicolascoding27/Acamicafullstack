@@ -40,12 +40,13 @@
                 padding-top: 186px;
             }
         .grid-podcast{ 
-            
             display:grid;
             grid-template-columns: 1fr 1fr ;
             gap: 72px 72px;
+            row-gap: 100px;
             padding-left: 100px;
-
+            padding-right: 100px;
+            
         }
     }
     }
