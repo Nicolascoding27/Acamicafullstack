@@ -51,7 +51,7 @@ $text-bigScreen:'El portal de podcasts que explora el mundo de la programación 
 
 }
 //desktop version
-@media screen and (min-width:1200px) {
+@media screen and (min-width:768px) {
     .info{
         .button{
             align-self: flex-start;
