@@ -46,5 +46,19 @@
     .phone{
           width:458px;  
     }
+    .topics{
+        h2{
+            font-size: 48px;
+            white-space: nowrap;
+        }
+    }
+    .grid-topics{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 66px $margin-big;
+        align-items: center;
+        justify-content: center;
+
+    }
     
 }

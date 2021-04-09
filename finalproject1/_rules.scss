@@ -45,7 +45,18 @@
         justify-content: center;
         justify-items: center;
         padding-left: 200px;
+        transform: translateY(-150px);
+        .title-info{
+            font-size: 46px;
+        }
+            p{
+            font-size: 16px;
+            margin-right: 66px;
+            width:464px;
+            font-family: 'IBM Plex Mono',sans-serif;
+        
+            }
+        }
 
     }
     
-}

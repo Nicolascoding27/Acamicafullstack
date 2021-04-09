@@ -23,3 +23,26 @@
     }
 }
 }
+@media screen and (min-width :768px){
+   .guests{
+       .titulo-invitados{
+           padding-bottom: 36px;
+            padding-left: $margin-big;
+            width:481px;
+            white-space: nowrap;
+            font-size:48px ;
+
+       }
+    .grid-invitados{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: 1fr*2;
+        gap:0px 0px;
+        img{
+            height: 100%;
+            width: 100%;
+            margin: -5px -5px;
+        }
+    }
+}
+}

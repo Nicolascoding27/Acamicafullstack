@@ -75,6 +75,17 @@
             justify-content: center;
     justify-items: center;
     padding-left: 200px;
+    -webkit-transform: translateY(-150px);
+            transform: translateY(-150px);
+  }
+  .translate .title-info {
+    font-size: 46px;
+  }
+  .translate p {
+    font-size: 16px;
+    margin-right: 66px;
+    width: 464px;
+    font-family: 'IBM Plex Mono',sans-serif;
   }
 }
 
@@ -287,7 +298,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .episodios-fondo {
-    height: 900px;
+    height: 1042px;
   }
   .episodios-fondo .episodios-titulo {
     margin-left: 200px;
@@ -425,6 +436,23 @@ a {
   .phone {
     width: 458px;
   }
+  .topics h2 {
+    font-size: 48px;
+    white-space: nowrap;
+  }
+  .grid-topics {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 66px 200px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .guests {
@@ -459,6 +487,30 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .guests .titulo-invitados {
+    padding-bottom: 36px;
+    padding-left: 200px;
+    width: 481px;
+    white-space: nowrap;
+    font-size: 48px;
+  }
+  .guests .grid-invitados {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 2fr;
+        grid-template-rows: 2fr;
+    gap: 0px 0px;
+  }
+  .guests .grid-invitados img {
+    height: 100%;
+    width: 100%;
+    margin: -5px -5px;
+  }
 }
 
 .info {
@@ -548,6 +600,18 @@ a {
   }
   span {
     color: #0000EC;
+  }
+  .info-container .title-info {
+    font-size: 46px;
+    color: #060A24;
+  }
+  .info-container p {
+    padding-top: 24px;
+    font-size: 16px;
+    margin-right: 66px;
+    width: 464px;
+    font-family: 'IBM Plex Mono',sans-serif;
+    color: #060A24;
   }
 }
 

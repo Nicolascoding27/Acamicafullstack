@@ -77,5 +77,19 @@ $text-bigScreen:'El portal de podcasts que explora el mundo de la programación 
     span{
         color:#0000EC
     }
-    
+    .info-container{
+        .title-info{
+            font-size: 46px;
+            color: #060A24;
+        }
+            p{
+            padding-top: 24px;
+            font-size: 16px;
+            margin-right: 66px;
+            width:464px;
+            font-family: 'IBM Plex Mono',sans-serif;
+            color: #060A24;
+        
+            }
+    }
 }
