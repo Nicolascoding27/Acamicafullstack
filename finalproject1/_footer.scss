@@ -1,4 +1,4 @@
-.footer{
+footer{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -43,3 +43,25 @@
     }
     }
 }   
+@media screen and (min-width:768px){
+    footer{
+        transform: translateY(-90px);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0px;
+        // margin-left: 100px;
+        height: 95px;
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        .text-footer{
+            padding-left: 100px;
+        }
+    .social{
+        direction: flex;
+        justify-content: flex-end;
+        margin-right: 100px;
+    }
+}
+}

@@ -17,4 +17,23 @@
         font-family: $font;
     } 
 }
+@media screen and (min-width:768px){
+ .novedades-bg{
+     height: 518px;
+    transform: translateY(-90px);
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+     .title-conocer{
+         font-size: 48px;;
+         white-space: nowrap;
+         align-self: center;
+         text-align: center;
+         width:692px;
+         padding-top: 213px;
+         font-weight: 400;
 
+        //  ffm
+     }
+ }   
+}

@@ -18,6 +18,7 @@
     }
 }
 .grid-topics{
+    width:100%;
     display: grid;
     grid-column: 1fr;
     justify-content: center;
@@ -47,17 +48,33 @@
           width:458px;  
     }
     .topics{
+        transform: translateY(-90px);
+        display: flex;
+        flex-flow:column wrap;
+        align-self: center;
+        color:#060A24;
+        width: 100%;
         h2{
             font-size: 48px;
             white-space: nowrap;
+            padding-left: $margin-big;
+            padding-top:64px;
+            font-weight: 400;
         }
     }
     .grid-topics{
+        
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 66px $margin-big;
-        align-items: center;
-        justify-content: center;
+        align-self: center;
+        gap: 78px 0px;
+        .img-topic{
+        p{
+            width: 220px;
+            margin-top:29px;
+        }
+    }
 
     }
     

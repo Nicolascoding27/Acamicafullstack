@@ -8,7 +8,6 @@ a{
 }
 .header{
     // background-color: $bg;
-    
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -122,6 +121,9 @@ a{
         }
     }
     .header{
+        overflow-x: hidden;
+        position: fixed;
+        width: 100%;
         li{
             float: left;
         }
