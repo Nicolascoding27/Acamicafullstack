@@ -12,7 +12,6 @@
 html, body {
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .button {
@@ -64,7 +63,7 @@ html, body {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .translate {
     width: 100%;
     display: -webkit-box;
@@ -82,6 +81,27 @@ html, body {
             justify-content: center;
     justify-items: center;
     padding-left: 200px;
+    -webkit-transform: translateY(-150px);
+            transform: translateY(-150px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .translate {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-transform: translateY(-150px);
             transform: translateY(-150px);
   }
@@ -224,7 +244,6 @@ a {
     font-size: 6em;
   }
   .header {
-    overflow-x: hidden;
     position: fixed;
     width: 100%;
   }
@@ -468,7 +487,7 @@ footer .social h2 {
   font-weight: 700;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .phone {
     width: 458px;
   }
@@ -507,6 +526,50 @@ footer .social h2 {
   .grid-topics .img-topic p {
     width: 220px;
     margin-top: 29px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .phone {
+    width: 458px;
+  }
+  .topics {
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 400px;
+    color: #060A24;
+    width: 100%;
+  }
+  .topics h2 {
+    font-size: 48px;
+    white-space: nowrap;
+    padding-top: 64px;
+    font-weight: 400;
+  }
+  .grid-topics {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 150px 150px 150px 150px;
+        grid-template-columns: 150px 150px 150px 150px;
+    width: 100px;
+    -ms-grid-row-align: center;
+        align-self: center;
+    gap: 20px 20px;
+  }
+  .grid-topics .img-topic {
+    padding: 20px 20px;
+  }
+  .grid-topics .img-topic P {
+    width: 150px;
   }
 }
 
@@ -635,7 +698,19 @@ footer .social h2 {
   font-family: 'IBM Plex Mono',sans-serif;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
+  .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
   .info .button {
     -ms-flex-item-align: start;
         align-self: flex-start;
@@ -643,7 +718,7 @@ footer .social h2 {
   }
   .info p {
     font-size: 16px;
-    width: 628px;
+    text-align: justify;
     padding-left: 200px;
   }
   .info p:after {
@@ -671,7 +746,46 @@ footer .social h2 {
     padding-top: 24px;
     font-size: 16px;
     margin-right: 66px;
-    width: 464px;
+    font-family: 'IBM Plex Mono',sans-serif;
+    color: #060A24;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info .button {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 200px;
+  }
+  .info p {
+    font-size: 16px;
+    width: 80%;
+    padding-left: 200px;
+  }
+  .info p:after {
+    content: "El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.";
+  }
+  .info h1 {
+    width: 722px;
+    padding-left: 200px;
+    white-space: nowrap;
+  }
+  .info h1 br {
+    display: none;
+  }
+  span {
+    color: #0000EC;
+  }
+  .info-container {
+    width: 100%;
+  }
+  .info-container .title-info {
+    font-size: 46px;
+    color: #060A24;
+  }
+  .info-container p {
+    padding-top: 24px;
+    font-size: 16px;
     font-family: 'IBM Plex Mono',sans-serif;
     color: #060A24;
   }

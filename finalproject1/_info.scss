@@ -55,16 +55,20 @@ $text-bigScreen:'El portal de podcasts que explora el mundo de la programación 
 
 }
 //desktop version
-@media screen and (min-width:768px) {
+@media screen and (min-width:1200px) {
     .info{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
         .button{
             align-self: flex-start;
             margin-left: $margin-big;
         }
         p{
             font-size: 16px;
-            width: 628px;
-            padding-left: $margin-big;
+            text-align: justify;
+            padding-left:$margin-big;
+            
             &:after{
                 content: $text-bigScreen;
             }
@@ -91,8 +95,47 @@ $text-bigScreen:'El portal de podcasts que explora el mundo de la programación 
             padding-top: 24px;
             font-size: 16px;
             margin-right: 66px;
-            width:50%;
-            
+            font-family: 'IBM Plex Mono',sans-serif;
+            color: #060A24;
+        
+            }
+    }
+}
+@media screen and (min-width:768px) {
+    .info{
+        .button{
+            align-self: flex-start;
+            margin-left: $margin-big;
+        }
+        p{
+            font-size: 16px;
+            width: 80%;
+            padding-left: $margin-big;
+            &:after{
+                content: $text-bigScreen;
+            }
+        }
+        h1{
+            width:722px;
+            padding-left:$margin-big;
+            white-space: nowrap;
+            br{
+                display:none;
+            }
+        }
+    }
+    span{
+        color:#0000EC
+    }
+    .info-container{
+        width: 100%;
+        .title-info{
+            font-size: 46px;
+            color: #060A24;
+        }
+            p{
+            padding-top: 24px;
+            font-size: 16px;
             font-family: 'IBM Plex Mono',sans-serif;
             color: #060A24;
         

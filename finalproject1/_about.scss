@@ -43,7 +43,7 @@
   
     
 }
-@media  screen and (min-width:768px) {
+@media  screen and (min-width:1200px) {
     .phone{
           width:458px;  
     }
@@ -74,6 +74,43 @@
             width: 220px;
             margin-top:29px;
         }
+    }
+
+    }
+    
+}
+@media  screen and (min-width:768px) {
+    .phone{
+          width:458px;  
+    }
+    .topics{
+        transform: translateY(-90px);
+        display: flex;
+        flex-flow:column wrap;
+        align-self: center;
+        width: 400px;
+        color:#060A24;
+        width: 100%;
+        h2{
+            font-size: 48px;
+            white-space: nowrap;
+            padding-top:64px;
+            font-weight: 400;
+        }
+    }
+    .grid-topics{
+        
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        // padding: 66px $margin-big;
+        width:100px;
+        align-self: center;
+        gap:20px 20px;
+        .img-topic{
+            padding:20px 20px;
+       P{
+           width:150px;
+       }
     }
 
     }
