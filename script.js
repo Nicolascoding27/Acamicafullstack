@@ -10,4 +10,8 @@ for(let i=0 ; i<10; i++){
 //operators 
 //n=n+1
 //n +=1 
+const color =['blue','Green','Black']
+for(let i=0 ;i<color.length;i++){
+    console.log(color[i])
+}
 
