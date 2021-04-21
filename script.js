@@ -10,7 +10,7 @@
 // //operators 
 // //n=n+1
 // //n +=1 
-const colors =['Blue','Green','Black']
+// const colors =['Blue','Green','Black']
 
 // for(let i=0 ;i<color.length;i++){
 //     console.log(color[i])
@@ -23,26 +23,26 @@ const colors =['Blue','Green','Black']
 // }
 
 //Switch 
-const producto ={
-    name:'Samsung Galaxy D20',
-    price:900,
-    offerPrice:560,
-    freeshipping:false,
-    status:'ACTIVE'
-}
-//funcion basica para nombre 
-    function nombre(name){
-        console.log('Hello',name)
-    }
-    nombre('freddy')
+// const producto ={
+//     name:'Samsung Galaxy D20',
+//     price:900,
+//     offerPrice:560,
+//     freeshipping:false,
+//     status:'ACTIVE'
+// }
+// //funcion basica para nombre 
+//     function nombre(name){
+//         console.log('Hello',name)
+//     }
+//     nombre('freddy')
 
-//fUNCION PARA CALCULAR DESCUENTO
-    function calculateOfferPercent (originalprice,offerPrice){
-        const percent=(offerPrice*100)/originalprice
-        const percentDiscount=100 - percent
-        console.log(percentDiscount + "%") 
-    }
-    calculateOfferPercent(500,250)
+// //fUNCION PARA CALCULAR DESCUENTO
+//     function calculateOfferPercent (originalprice,offerPrice){
+//         const percent=(offerPrice*100)/originalprice
+//         const percentDiscount=100 - percent
+//         console.log(percentDiscount + "%") 
+//     }
+//     calculateOfferPercent(500,250)
 // if(products.status==='Active'){
 //     console.log('El producto se encuentra activo')
 // } else if (products.status==='NO STOCK'){\
@@ -58,4 +58,44 @@ const producto ={
 //     break;
 //     case 'Inactive';
 //     console.log('El producto se encuentra INACTIVO')
-// }
+// 
+
+function NumberToLetter(){
+    const numero=prompt('Ingresa un numero del 1 al 10')
+    switch(numero){
+        case '1':
+        console.log('A')
+        break;
+        case '2':
+        console.log('B')
+        break;
+        case '3':
+        console.log('C')
+        break;
+        case '4':
+        console.log('D')
+        break;
+        case '5':
+        console.log('E')
+        break;
+        case '6':
+        console.log('F')
+        break;
+        case '7':
+        console.log('G')
+        break;
+        case '8':
+        console.log('H')
+        break;
+        case '9':
+        console.log('I')
+        break;
+        case '10':
+        console.log('J')
+        break;
+        default:
+            console.log('Ingrese un numero valido');
+    }
+        
+}
+NumberToLetter();
