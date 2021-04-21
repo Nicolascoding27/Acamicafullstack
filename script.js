@@ -26,6 +26,7 @@ const colors =['Blue','Green','Black']
 const producto ={
     name:'Samsung Galaxy D20',
     price:900,
+    offerPrice:560,
     freeshipping:false,
     status:'ACTIVE'
 }
@@ -36,9 +37,12 @@ const producto ={
     nombre('freddy')
 
 //fUNCION PARA CALCULAR DESCUENTO
-    // function promocion (price){
-    //     let percentage=_
-    // }
+    function calculateOfferPercent (originalprice,offerPrice){
+        const percent=(offerPrice*100)/originalprice
+        const percentDiscount=100 - percent
+        console.log(percentDiscount + "%") 
+    }
+    calculateOfferPercent(500,250)
 // if(products.status==='Active'){
 //     console.log('El producto se encuentra activo')
 // } else if (products.status==='NO STOCK'){\
