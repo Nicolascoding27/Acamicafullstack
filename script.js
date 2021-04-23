@@ -106,3 +106,13 @@ const numberValues=values.filter((value)=> !isNa(parseInt(value)))//The ones tha
 const notNumberValues=values.filter((value)=>isNa(parseInt))
 //Codigo acortado 
 const SumOfNumberValues= values.filter(value=>!isNa(parseInt(value))).reduce((a,b)=> a+b)
+
+//MY FIRST PROMISE 
+const promise= new Promise((resolve,reject)=> {
+   if(true){
+      resolve('Stuff Worked')
+   }
+   else{
+      reject('Error ')
+   }
+})
