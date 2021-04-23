@@ -71,7 +71,7 @@ for(let i=0;i<n;i++){
     if(quantity%2===0){
        pares+=1 
     }
-    else if(quantity%2!-=0){
+    else if(quantity%2!=0){
        pares+=1 
     }
 }
@@ -84,7 +84,7 @@ for(let i=0;i<n;i++){
 // Scope 
 
 //
-const global= 'Scope global'\
+const global= 'Scope global'
 //hoisting: comportamiento javascript 
 const Myfunction =()=>{
    const functionScope="SCOPE FUNCTION"
@@ -116,3 +116,11 @@ const promise= new Promise((resolve,reject)=> {
       reject('Error ')
    }
 })
+// using the promise in an asynchronous way 
+promise
+.then(result => result + "!")
+.then(result2=>{
+    console.log(result2);
+})
+//Now how we use it? We use promises as a tool to avoid that javascript blocks the code so we are able to run 
+//some actions underneath 
