@@ -59,43 +59,50 @@
 //     case 'Inactive';
 //     console.log('El producto se encuentra INACTIVO')
 // 
+//Ejercicio 6
 
-function NumberToLetter(){
-    const numero=prompt('Ingresa un numero del 1 al 10')
-    switch(numero){
-        case '1':
-        console.log('A')
-        break;
-        case '2':
-        console.log('B')
-        break;
-        case '3':
-        console.log('C')
-        break;
-        case '4':
-        console.log('D')
-        break;
-        case '5':
-        console.log('E')
-        break;
-        case '6':
-        console.log('F')
-        break;
-        case '7':
-        console.log('G')
-        break;
-        case '8':
-        console.log('H')
-        break;
-        case '9':
-        console.log('I')
-        break;
-        case '10':
-        console.log('J')
-        break;
-        default:
-            console.log('Ingrese un numero valido');
+
+//Ejercicio en 5
+let n=10
+let pares=0
+let impares=0
+for(let i=0;i<n;i++){
+    let quantity= prompt('Ingrese la cantidad de numeros')
+    if(quantity%2===0){
+       pares+=1 
     }
-        
+    else if(quantity%2!-=0){
+       pares+=1 
+    }
 }
-NumberToLetter();
+// function calculaIngresos(){
+
+// }
+
+// Clase 3 Javascript 
+
+// Scope 
+
+//
+const global= 'Scope global'\
+//hoisting: comportamiento javascript 
+const Myfunction =()=>{
+   const functionScope="SCOPE FUNCTION"
+   console.log(blockscope)
+}
+if(global=== 'SCOPE GLOBAL'){
+   const blockScope='BLOCK SCOPE'
+   console.log(blockscope)
+``}
+console.log(global)
+console.log(Myfunction)//WE DONT HAVE ACCESS TO THIS VARIABLE SO WE GET AN ERROR
+console.log(blockScope)//WE DONT HAVE ACCESS EITHER SO WE GET AN ERROR
+
+
+// const year= put a plural to an array 
+
+const values=['text',98,true,75,{id:1}]
+const numberValues=values.filter((value)=> !isNa(parseInt(value)))//The ones that are not Na, wqe have the ones that are not numbers 
+const notNumberValues=values.filter((value)=>isNa(parseInt))
+//Codigo acortado 
+const SumOfNumberValues= values.filter(value=>!isNa(parseInt(value))).reduce((a,b)=> a+b)
