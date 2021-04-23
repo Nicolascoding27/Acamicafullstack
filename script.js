@@ -124,3 +124,16 @@ promise
 })
 //Now how we use it? We use promises as a tool to avoid that javascript blocks the code so we are able to run 
 //some actions underneath 
+const urls = [
+   'https://jsonplaceholder.typicode.com/users',
+   'https://jsonplaceholder.typicode.com/posts',
+   'https://jsonplaceholder.typicode.com/albums'
+]
+//this allows me to get users and posts from an API 
+Promise.all(urls.map(url =>{
+   return fetch(url).then(resp=>resp.json())
+})).then(results=> {
+   console.log(results[0])
+   console.log(results[1])
+   console.log(results[2])
+}).catch(()=>console.log(error))//this allows me to catch any error so JS doesnt block our code
