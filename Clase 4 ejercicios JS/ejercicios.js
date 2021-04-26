@@ -21,14 +21,27 @@
 //     number.push(array)
 //  }
 // }
+
+// function arrayCheck(){
+//    var number=prompt("inserta un numero")
+//    var numbers=[]
+//    while(number!=="stop"){
+//       numbers.push(number)1
+//       var number2=prompt("inserta un numero")
+//       numbers.push(number2)
+//    }
+//    return numbers
+// }
+//intento 6
+var array1=[]
 function arrayCheck(){
-   var number=prompt("inserta un numero")
-   var numbers=[]
-   while(number!=="stop"){
-      numbers.push(number)
-      var number2=prompt("inserta un numero")
-      numbers.push(number2)
-   }
-   return numbers
+   var number=prompt("Ingresa un numero, me detendre si escribes STOP");
+  if(number==="STOP"){
+   console.log(array1)
+   return;
+  } 
+   array1.push(number);
+   arrayCheck () ;
+   
 }
 arrayCheck();
