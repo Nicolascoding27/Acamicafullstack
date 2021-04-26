@@ -51,6 +51,7 @@ html, body {
   display: grid;
   grid-gap: 20px;
   padding: 0;
+  justify-items: center;
   list-style: none;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -182,7 +183,7 @@ html, body {
 
 @media (max-width: 700px) {
   .main-container {
-        grid-template-areas: 'left-container' 'right-container';
+        grid-template-areas: 'left-container' 'right-container';
   }
   .main-nav ul {
     -ms-grid-columns: 1fr;
