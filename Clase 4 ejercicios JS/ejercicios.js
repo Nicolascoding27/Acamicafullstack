@@ -65,3 +65,37 @@
          ejercicio2() ; 
    }
       ejercicio2();
+
+   //ejercio 4 Dividir arrays 
+   var results=[]
+   function DividirArrays(){
+      const number=prompt("Ingrese el numero");
+      if(number===0)return;
+      results.push(number);
+      DividirArray(results)
+   }
+   function DividirArray(array){
+      let arrayOfArrays=[]
+      var length=array.length;
+      var residuo=length%3;
+      var resta=length-residuo
+      var intervals=resta/3
+      if(length%3===1){
+         array.shift()
+      }
+      else if(length%3===2){
+         array.shift()
+         array.pop()
+      }
+      for(let i=0;i<3;i++){
+         let ar                  rayElement=array.splice(0,intervals);
+         arrayOfArrays.push(arrayElement)
+      }
+      return arrayOfArrays;
+   }
+
+//Solucion ejercicio 4 
+ //Objetos
+ class plane {
+
+ }
