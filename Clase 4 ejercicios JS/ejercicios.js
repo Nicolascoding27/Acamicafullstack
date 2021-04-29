@@ -49,65 +49,69 @@
 
 //EJERCICIO 2
       
-      var results=[]
-   function ejercicio2(){
-         var number=parseInt(prompt("Ingresa un numero, me detendre si escribes 0"));
-      if(number===0){
-         var resultFilteredOdd=results.filter(number=>number%2===0);
-         var resultFilteredEven=results.filter(number=>number%2!==0);
-         var resultFileteredNotstring=results.filter(number=>typeof(number===int)?:number));
-         console.log(`The odd numbers are ${resultFilteredOdd}`);
-         console.log(`The even numbers are ${resultFilteredEven}`);
-         console.log(`The not int are${resultFileteredNotstring}`);
-         return;
-      } 
-         results.push(number);
-         ejercicio2() ; 
-   }
-      ejercicio2();
+   //    var results=[]
+   // function ejercicio2(){
+   //       var number=parseInt(prompt("Ingresa un numero, me detendre si escribes 0"));
+   //    if(number===0){
+   //       var resultFilteredOdd=results.filter(number=>number%2===0);
+   //       var resultFilteredEven=results.filter(number=>number%2!==0);
+   //       var resultFileteredNotstring=results.filter(number=>typeof(number===int)?:number));
+   //       console.log(`The odd numbers are ${resultFilteredOdd}`);
+   //       console.log(`The even numbers are ${resultFilteredEven}`);
+   //       console.log(`The not int are${resultFileteredNotstring}`);
+   //       return;
+   //    } 
+   //       results.push(number);
+   //       ejercicio2() ; 
+   // }
+   //    ejercicio2();
 
-   //ejercio 4 Dividir arrays 
-   var results=[]
-   function DividirArrays(){
-      const number=prompt("Ingrese el numero");
-      if(number===0)return;
-      results.push(number);
-      DividirArray(results)
-   }
-   function DividirArray(array){
-      let arrayOfArrays=[]
-      var length=array.length;
-      var residuo=length%3;
-      var resta=length-residuo
-      var intervals=resta/3
-      if(length%3===1){
-         array.shift()
-      }
-      else if(length%3===2){
-         array.shift()
-         array.pop()
-      }
-      for(let i=0;i<3;i++){
-         let ar                  rayElement=array.splice(0,intervals);
-         arrayOfArrays.push(arrayElement)
-      }
-      return arrayOfArrays;
-   }
+   // //ejercio 4 Dividir arrays 
+   // var results=[]
+   // function DividirArrays(){
+   //    const number=prompt("Ingrese el numero");
+   //    if(number===0)return;
+   //    results.push(number);
+   //    DividirArray(results)
+   // }
+   // function DividirArray(array){
+   //    let arrayOfArrays=[]
+   //    var length=array.length;
+   //    var residuo=length%3;
+   //    var resta=length-residuo
+   //    var intervals=resta/3
+   //    if(length%3===1){
+   //       array.shift()
+   //    }
+   //    else if(length%3===2){
+   //       array.shift()
+   //       array.pop()
+   //    }
+   //    for(let i=0;i<3;i++){
+   //       let ar                  rayElement=array.splice(0,intervals);
+   //       arrayOfArrays.push(arrayElement)
+   //    }
+   //    return arrayOfArrays;
+   // }
 
 //Solucion ejercicio 4 
  //Objetos
  class plane {
     //constructor method
-    constructor(brand,model){
+    constructor(brand,model,color){
       this.brand=brand;
       this.model=model;
+      //conditional iif there's an empty value 
+      this.color=color ? color : "color desconocido"
     }
+    //this is a method because is inside this class.
       start(){
-         console.log('start')
+         console.log(`Starting plane ${this.brand} ${this.model}`)
       }
  }
  //We're creating a new object, and we're giving it some properties.
- const avion1= new Plane(boeing,737);
- const avion2=new Plane(top,646);
+ const avion1= new Plane(boeing,737,blanco);
+ const avion2=new Plane(top,646,azul);
+ const avion3= new Plane(patch,654)
  avion1.start();
  avion2.start();
