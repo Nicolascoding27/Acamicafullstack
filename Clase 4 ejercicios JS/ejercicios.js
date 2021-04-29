@@ -97,5 +97,10 @@
 //Solucion ejercicio 4 
  //Objetos
  class plane {
-
+      start(){
+         console.log('start')
+      }
  }
+ //We're creating a new object 
+ const avion1= new Plane()
+ const avion2=new Plane()
