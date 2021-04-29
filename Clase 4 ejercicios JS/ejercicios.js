@@ -97,10 +97,17 @@
 //Solucion ejercicio 4 
  //Objetos
  class plane {
+    //constructor method
+    constructor(brand,model){
+      this.brand=brand;
+      this.model=model;
+    }
       start(){
          console.log('start')
       }
  }
- //We're creating a new object 
- const avion1= new Plane()
- const avion2=new Plane()
+ //We're creating a new object, and we're giving it some properties.
+ const avion1= new Plane(boeing,737);
+ const avion2=new Plane(top,646);
+ avion1.start();
+ avion2.start();
