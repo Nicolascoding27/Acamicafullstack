@@ -98,6 +98,8 @@
  //Objetos
  class plane {
     //constructor method
+    // I can define properties as private  properties, ex
+   //  private shape
     constructor(brand,model,color){
       this.brand=brand;
       this.model=model;
@@ -108,10 +110,49 @@
       start(){
          console.log(`Starting plane ${this.brand} ${this.model}`)
       }
+   //best practices, create a method to edit the properties inside your objects
+   //instead using console.log 
+   getBrand(){
+      return this.brand 
+   }
+   setBrand(Brand){
+      this.brand=brand
+   }
  }
  //We're creating a new object, and we're giving it some properties.
  const avion1= new Plane(boeing,737,blanco);
  const avion2=new Plane(top,646,azul);
  const avion3= new Plane(patch,654)
- avion1.start();
+ console.log(avion1.getBrand())
+ avion1.start(avion2.setBrand(boeing));
  avion2.start();
+ //Ejercicio de clase 
+ class persona{
+    name 
+    lastName
+    age
+    //POR QUE DEFINO LAS VARIABLES ACA?
+    constructor(name,lastName,age){
+       this.name=name;
+       this.lastName=lastName;
+       this.age=age 
+    }
+
+    getFullName(){
+       return `El nombre es ${this.name} ${this.lastName}`
+    }
+    isOlder(){
+       return this.age>18 //cpnpruebo si es mayor o no 
+    }
+
+ }
+ const Peter= new persona('Peter','Parker',20);
+ const Rodrigo= new persona('Rodrigo','Rodriguez',20);
+ const Javier= new persona('Javier','Perez',20);
+//Tpdp se hace una vez por cada ciclo, no se reescribe para cada usuario
+//SIEMPRE QUE TENGA UNA VARIABLE QUE NO NECESITO SOBREESCRIBIR LA DECLARO CON CONST 
+const user =[Peter,Rodrigo.Javier]//creo array de objetos 
+ for(const user of users){
+    const ageMessage=user.isOlder() ? 'es mayor de edad':'es menor de edad';
+    console.log(`El usuario ${user.getFullName()} ${user.ageMessage()}`)
+ }
