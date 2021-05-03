@@ -144,6 +144,10 @@
     isOlder(){
        return this.age>18 //cpnpruebo si es mayor o no 
     }
+    requireInfo(){
+       const user=[]
+       for
+    }
 
  }
  const Peter= new persona('Peter','Parker',20);
@@ -156,3 +160,29 @@ const user =[Peter,Rodrigo.Javier]//creo array de objetos
     const ageMessage=user.isOlder() ? 'es mayor de edad':'es menor de edad';
     console.log(`El usuario ${user.getFullName()} ${user.ageMessage()}`)
  }
+ function requireInfo()
+//Ejercicio clase 5
+class Perro{
+   constructor(breed,name,color,adoptionStatus){
+      this.breed= breed;
+      this.name=name;
+      this.color=color;
+      this.adoptionStatus=adoptionStatus;
+   }
+
+
+}
+ //CLASE 6 
+ class Desarrollador extends Persona{
+    constructor(name, lastName,cargo){
+       super(name,lastName)
+       this.cargo=cargp
+    }
+
+ } 
+ const dogs=[];
+ const breed
+const name 
+const color 
+const adoptionStatus
+dogs.push()
