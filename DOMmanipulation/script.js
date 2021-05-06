@@ -37,8 +37,29 @@ window.onload=()=>{
     <div class="new_div">
         <p>Im a new text</p>
     </div>`
+    //Entender que es adjecent y mirar insertbefore()
 }
 
 
 
 //Yo puedo usar el query selector tanto para clase como para Id's
+
+//-------------Local Storage------------------------------------
+
+// let num=0 
+// console.log(num)
+// num=1
+// console.log(num)
+// localStorage.setItem('NUM',num)//Quiero guadar el valor que se llama NUM
+var num2=parseInt(localStorage.getItem('NUM')) 
+for (let index =0 ;INDEX<5;index++){
+    num = num+1
+}
+console.log(num)
+localStorage.setItem('NUM',num)//the value of num is 5 here
+const  changeTheme=()=>{
+    //si no hay nada me devuelve ligth
+    const activeTheme=localStorage.getItem('THEME')|| 'light'//con doble raya devuelve el valor
+    let newTheme=activeTheme ==='light'? 'dark':'light'
+    localStorage.setItem('THEME',newTheme)
+}
