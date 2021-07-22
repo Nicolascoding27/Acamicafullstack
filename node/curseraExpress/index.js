@@ -35,7 +35,7 @@ app.delete('/dishes',(req,res,next)=>{ //We are changing just one dish so it doe
 
 /**CRUD METHODS 2 for just one dish*/
 app.get('/dishes/:dishId',(req,res,next)=>{
-    res.end('Will send details of the dish:' + req.params.dishId + 'to you!') //params refers to the parameter in this case the dish id
+    res.end('Will send details of the dish:' + ' '+ req.params.dishId + 'to you!') //params refers to the parameter in this case the dish id
 })
 /**It does not make sense to create a dish in a specific path */
 app.post('/dishes/:dishId',(req,res,next)=>{
@@ -44,11 +44,11 @@ app.post('/dishes/:dishId',(req,res,next)=>{
 });
 app.put('/dishes/:dishId',(req,res,next)=>{ //We are changing just one dish so it does not make sense 
     res.write('Uptading the dish:'+ req.params.dishId )
-    res.end(`Will uptade the dish ${req.params.dishId}`)
+    res.end(`Will uptade the dish: ${req.body.name} with details  ${req.body.description}`)
 });
 /**We need auth for this kind of operations  */
 app.delete('/dishes/:dishId',(req,res,next)=>{ //We are changing just one dish so it does not make sense 
-    res.end('Deleting all dishes!!')
+    res.end('Deleting dish: ' + req.body.name +'with the id'+ req.params.dishId)
 });
 
 
